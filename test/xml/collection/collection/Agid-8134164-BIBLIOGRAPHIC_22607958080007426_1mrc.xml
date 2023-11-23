@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+    <marc:leader>05506cam a2200697 i 4500</marc:leader>
+    <marc:controlfield tag="001">9916405831307426</marc:controlfield>
+    <marc:controlfield tag="005">20231006165350.0</marc:controlfield>
+    <marc:controlfield tag="008">230928s2020    is a    ob    000 0 eng d</marc:controlfield>
+    <marc:datafield tag="016" ind1="7" ind2=" ">
+        <marc:subfield code="a">CAT109916405831307426</marc:subfield>
+        <marc:subfield code="2">DNAL</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="024" ind1="7" ind2=" ">
+        <marc:subfield code="a">10113/8134164</marc:subfield>
+        <marc:subfield code="2">hdl</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="024" ind1="7" ind2=" ">
+        <marc:subfield code="a">10.32747/2020.8134164.bard</marc:subfield>
+        <marc:subfield code="2">doi</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="035" ind1=" " ind2=" ">
+        <marc:subfield code="a">(OCoLC)on1400203812</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="040" ind1=" " ind2=" ">
+        <marc:subfield code="a">AGL</marc:subfield>
+        <marc:subfield code="b">eng</marc:subfield>
+        <marc:subfield code="e">rda</marc:subfield>
+        <marc:subfield code="c">AGL</marc:subfield>
+        <marc:subfield code="d">AGL</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="049" ind1=" " ind2=" ">
+        <marc:subfield code="a">AGLL</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="050" ind1="0" ind2="4">
+        <marc:subfield code="a">SB363</marc:subfield>
+        <marc:subfield code="b">.D76 2020</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="070" ind1="0" ind2=" ">
+        <marc:subfield code="a">SB363</marc:subfield>
+        <marc:subfield code="b">.D76 2020</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="100" ind1="1" ind2=" ">
+        <marc:subfield code="a">Droby, S.,</marc:subfield>
+        <marc:subfield code="e">primary investigator</marc:subfield>
+        <marc:subfield code="u">Agricultural Research Organization</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="245" ind1="1" ind2="0">
+        <marc:subfield code="a">Microbial networks on harvested apples and the design of antagonistic consortia to control postharvest pathogens /</marc:subfield>
+        <marc:subfield code="c">J.L. Norelli, M.E. Wisniewski, S. Droby, S. Freilich, A. Faigenboim, C. Dardick.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="264" ind1=" " ind2="1">
+        <marc:subfield code="a">Israel :</marc:subfield>
+        <marc:subfield code="b">United States-Israel Binational Agricultural Research and Development Fund,</marc:subfield>
+        <marc:subfield code="c">2020</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="300" ind1=" " ind2=" ">
+        <marc:subfield code="a">1 online resource (229 pages) :</marc:subfield>
+        <marc:subfield code="b">color illustrations</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="336" ind1=" " ind2=" ">
+        <marc:subfield code="a">text</marc:subfield>
+        <marc:subfield code="b">txt</marc:subfield>
+        <marc:subfield code="2">rdacontent</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="337" ind1=" " ind2=" ">
+        <marc:subfield code="a">computer</marc:subfield>
+        <marc:subfield code="b">c</marc:subfield>
+        <marc:subfield code="2">rdamedia</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="338" ind1=" " ind2=" ">
+        <marc:subfield code="a">online resource</marc:subfield>
+        <marc:subfield code="b">cr</marc:subfield>
+        <marc:subfield code="2">rdacarrier</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="593" ind1=" " ind2=" ">
+        <marc:subfield code="e">report paper</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="500" ind1=" " ind2=" ">
+        <marc:subfield code="a">&quot;Three year research project&quot;</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="500" ind1=" " ind2=" ">
+        <marc:subfield code="a">&quot;Project award year: 2017&quot;</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="500" ind1=" " ind2=" ">
+        <marc:subfield code="a">&quot;BARD Final Report IS-5040-17&quot;</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="504" ind1=" " ind2=" ">
+        <marc:subfield code="a">Includes bibliographical references (page2 251-217)</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="520" ind1="3" ind2=" ">
+        <marc:subfield code="a">We have demonstrated, at a global level, the existence of spatial variation in the fungal and bacterial composition of different fruit tissues. The composition, diversity and abundance varied in fruit harvested in different geographical locations and suggests a potential link between location and the type and rate of postharvest diseases that develop in each country. The global core microbiome of apple fruit was determined and found to be represented by several beneficial microbial taxa and accounted for a large fraction of the fruit microbial community. To further characterize apple fruit the microbiome after harvest, a detailed study was performed to evaluate effects of postharvest practices on the composition of the fruit peel. Microbiota. Results of this work conformed our findings that tissue-type is the main factor driving fungal and bacterial diversity and community composition on apple fruit. Both postharvest treatments and low temperature storage had a great impact on the fungal and bacterial diversity and community composition of these tissue types. Distinct spatial and temporal changes in the composition and diversity of the microbiota were observed in response to various postharvest management practices. Our results clearly indicated that apple fruit has a unique core microbiome that is universal. Analysis of the microbiome across Malus species indicates that the microbiome of domesticated apple has a higher diversity and abundance and is an admixture of the microbiome present in its wild progenitors, with clear evidence for introgression. These findings support the existence of co-evolution between Malus species and their microbiome during domestication. A network analysis of the metagenomics data was used to further elucidate functional differences between the microbiome of organic vs. conventional fruit. Our analysis predicted a link between Capnodiales and the degradation of aromatic compounds. Alternaria, a genus in the Capnodiales genus, is one of the main pathogens of stored apple fruit and was also abundant in our samples. The potential role of Alternaria in the degradation of aromatic compounds is in agreement with previous studies indicating a link between Alternaria and the metabolism of the aromatic compound, alphafarnesene38, a key volatile secreted by the fruit during maturation. A greater number of metabolic pathways related to plant defense substances (e.g. terpenoids and alkaloids) were identified in the microbiome of organic fruit samples, while more antibiotic-related metabolic pathways for compounds such as Erythromycin, Avermectin, Ansamycin, and Penicillin were present in the microbiome of apple fruit samples grown using conventional management practices.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="655" ind1=" " ind2="7">
+        <marc:subfield code="a">report paper</marc:subfield>
+        <marc:subfield code="2">DNAL</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="650" ind1=" " ind2="0">
+        <marc:subfield code="a">Apples</marc:subfield>
+        <marc:subfield code="x">Microbiology.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="650" ind1=" " ind2="0">
+        <marc:subfield code="a">Fruit</marc:subfield>
+        <marc:subfield code="x">Microbiology.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="653" ind1="0" ind2=" ">
+        <marc:subfield code="a">Capnodiales</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="653" ind1="0" ind2=" ">
+        <marc:subfield code="a">Erythromycin</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="653" ind1="0" ind2=" ">
+        <marc:subfield code="a">Avermectin</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="653" ind1="0" ind2=" ">
+        <marc:subfield code="a">Ansamycin</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="653" ind1="0" ind2=" ">
+        <marc:subfield code="a">Penicillin</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="787" ind1="1" ind2=" ">
+        <marc:subfield code="o">product_naldc</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="787" ind1="1" ind2=" ">
+        <marc:subfield code="o">naldc_COLL00002</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="700" ind1="1" ind2=" ">
+        <marc:subfield code="a">Norelli, J. L.,</marc:subfield>
+        <marc:subfield code="e">author</marc:subfield>
+        <marc:subfield code="u">USDA, Agricultural Research Service WV</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="700" ind1="1" ind2=" ">
+        <marc:subfield code="a">Wisniewski, M. E.,</marc:subfield>
+        <marc:subfield code="e">author</marc:subfield>
+        <marc:subfield code="u">USDA, Agricultural Research Service WV</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="700" ind1="1" ind2=" ">
+        <marc:subfield code="a">Freilich, S.,</marc:subfield>
+        <marc:subfield code="e">author</marc:subfield>
+        <marc:subfield code="u">Agricultural Research Organization</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="700" ind1="1" ind2=" ">
+        <marc:subfield code="a">Faigenboim, A. Agricultural Research Organization</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="700" ind1="1" ind2=" ">
+        <marc:subfield code="a">Dardick, C.,</marc:subfield>
+        <marc:subfield code="e">author</marc:subfield>
+        <marc:subfield code="u">USDA, Agricultural Research Service WV</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="710" ind1="2" ind2=" ">
+        <marc:subfield code="a">United States-Israel Binational Agricultural Research and Development Fund,</marc:subfield>
+        <marc:subfield code="e">sponsoring body.</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="710" ind1="2" ind2=" ">
+        <marc:subfield code="a">Minhal ha-meḥḳar ha-ḥaḳlaʼi (Israel)</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="856" ind1="4" ind2="0">
+        <marc:subfield code="u">https://www.bard-isus.com/FinalRep/5040.pdf</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="856" ind1=" " ind2=" ">
+        <marc:subfield code="u">https://handle.nal.usda.gov/10113/8134164</marc:subfield>
+        <marc:subfield code="z">CrossRef DOI Landing Page</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="856" ind1="4" ind2="0">
+        <marc:subfield code="u">https://doi.org/10.32747/10.32747/2020.8134164.bard</marc:subfield>
+        <marc:subfield code="z">Available in the National Agricultural Library Digital Collections</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="912" ind1=" " ind2=" ">
+        <marc:subfield code="a">Digital item</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="926" ind1=" " ind2=" ">
+        <marc:subfield code="a">PDF model</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="930" ind1=" " ind2=" ">
+        <marc:subfield code="a">20231006</marc:subfield>
+        <marc:subfield code="b">00000000</marc:subfield>
+        <marc:subfield code="c">00000000</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="946" ind1=" " ind2=" ">
+        <marc:subfield code="a">Non-US</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="958" ind1=" " ind2=" ">
+        <marc:subfield code="b">e</marc:subfield>
+        <marc:subfield code="c">2023/09/28</marc:subfield>
+        <marc:subfield code="d">o</marc:subfield>
+        <marc:subfield code="e">pdesai</marc:subfield>
+        <marc:subfield code="h">cfr</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="964" ind1=" " ind2=" ">
+        <marc:subfield code="a">BARD</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="965" ind1=" " ind2=" ">
+        <marc:subfield code="a">2023-10-06</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="972" ind1=" " ind2=" ">
+        <marc:subfield code="a">Issued</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="974" ind1=" " ind2=" ">
+        <marc:subfield code="a">agid:8134164</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="987" ind1=" " ind2=" ">
+        <marc:subfield code="a">pdesai</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="990" ind1=" " ind2=" ">
+        <marc:subfield code="c">NAL DOI Collection</marc:subfield>
+    </marc:datafield>
+    <marc:datafield tag="994" ind1=" " ind2=" ">
+        <marc:subfield code="a">C0</marc:subfield>
+        <marc:subfield code="b">AGL</marc:subfield>
+    </marc:datafield>
+</marc:record>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns="http://www.crossref.org/schema/5.3.1"
+           version="5.3.1"
+           xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 https://www.crossref.org/schemas/crossref5.3.1.xsd">
+   <head>
+      <doi_batch_id>report_paper-2023-11-23T04:36:01.810587-05:00</doi_batch_id>
+      <timestamp>20231123043601810587</timestamp>
+      <depositor>
+         <depositor_name>Carlos Martinez III</depositor_name>
+         <email_address>carlos.martinez2@usda.gov</email_address>
+      </depositor>
+      <registrant>National Agricultural Library</registrant>
+   </head>
+   <body/>
+</doi_batch>

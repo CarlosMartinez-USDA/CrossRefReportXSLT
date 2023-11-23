@@ -1,0 +1,1263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3"
+                xmlns:mods="http://www.loc.gov/mods/v3"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
+   <mods version="3.7">
+      <titleInfo>
+         <title>Cutting edge culture independent pipeline for detection of novel anti-fungal plant protection compounds in suppressive soils</title>
+      </titleInfo>
+      <name type="personal" usage="primary">
+         <namePart type="given">E</namePart>
+         <namePart type="family">Cytryn</namePart>
+         <displayForm>Cytryn, E </displayForm>
+         <affiliation>Agricultural Research Organization</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="given">Sean F.</namePart>
+         <namePart type="family">Brady</namePart>
+         <displayForm>Brady, Sean F. </displayForm>
+         <affiliation>Rockefeller University.</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="given">O.</namePart>
+         <namePart type="family">Frenkel</namePart>
+         <displayForm>Frenkel, O. </displayForm>
+         <affiliation>Agricultural Research Organization.</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="corporate">
+         <namePart>United States-Israel Binational Agricultural Research and Development Fund, </namePart>
+         <role>
+            <roleTerm type="text">sponsor</roleTerm>
+         </role>
+      </name>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="rdacontent">text </genre>
+      <genre authority="DNAL">report paper </genre>
+      <originInfo>
+         <place>
+            <placeTerm type="code" authority="marccountry">is</placeTerm>
+            <placeTerm type="text">Israel</placeTerm>
+         </place>
+         <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+         <issuance>monographic</issuance>
+      </originInfo>
+      <originInfo eventType="publisher">
+         <place>
+            <placeTerm type="text">[Israel?] : </placeTerm>
+         </place>
+         <publisher>United States-Israel Binational Agricultural Research and Development Fund, </publisher>
+         <dateIssued>2022</dateIssued>
+      </originInfo>
+      <language>
+         <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+         <languageTerm type="text">English</languageTerm>
+      </language>
+      <physicalDescription>
+         <form authority="marccategory">electronic resource</form>
+         <form authority="marcsmd">remote</form>
+         <form type="media" authority="rdamedia">computer </form>
+         <form type="carrier" authority="rdacarrier">online resource </form>
+         <extent>1 online resource (13 pages) :  charts</extent>
+      </physicalDescription>
+      <abstract displayLabel="Abstract">Fusarium oxysporum spp. causes Panama disease in bananas and crown and root rot in an array of vegetables and field crops, but increased regulations have restricted the use of many conventional chemical pesticides, and there are a limited number of commercially available products effective against them. The soil microbiome represents a largely untapped reservoir of secondary metabolites that can potentially antagonize fungal pathogens. However, most soil bacteria cannot be cultivated using conventional techniques and therefore most of these compounds remain unexplored. The overall goal of this two-year project was to extract and characterize novel secondary metabolites from "unculturable" soil microbiomes that antagonize Fusarium and other fungal plant pathogens. Initially, the Cytryn lab at the Volcani Institute (ARO) identified candidate biosynthetic gene clusters (BGCs) encoding for potentially novel antifungal compounds (specifically non-ribosomal peptides and polyketides) in soil and plant root microbiomes using cutting-edge metagenomic platforms. Next, the Brady lab at Rockefeller University (RU) screened archived soil metagenomic cosmid libraries for these BGCs, and heterologously expressed them in suitable hosts. Finally, the Frenkel and Cytryn labs at ARO assessed the capacity of these heterologous expressed strains to antagonize Fusarium and other fungal plant pathogens. Initially tomato and lettuce were analyzed, and subsequently roots of cucumbers grown in suppressive (biochar amended) soils were targeted. We found that the composition of tomato and lettuce root BGCs are similar to each other, but significantly different from adjacent bulk soil, indicating that root bacteria possess specific secondary metabolites that are potentially associated with rhizosphere competence. BGC linked to known metabolites included various antimicrobial, (e.g., streptazone E, sessilin), antifungal (heat-stable antifungal factor- HSAF, II and ECO-02301), and insecticidal (melingmycin, orfamide A) compounds. However, over 90% of the identified BGCs were moderately to significantly different from those encoding for characterized secondary metabolites, highlighting the profusion of potentially novel secondary metabolites in both root and soil environments. Novel BGCs that were abundant in roots and remotely resembled those of antifungal compounds were transferred to RU for subsequent screening and five were identified in RU soil metagenomic cosmid libraries. Two of these clusters (BARD-1711 BARD-B481) were heterologously-expressed in a Streptomyces albus J1074 strain, and transferred to ARO. The strain harboring BARAD-B481 was found to antagonize Fusarium significantly more than the host strain, indicating that this BGCs product has antifungal activity. Future studies will need to work on chemically characterizing the BARAD-B481 BGC and progress with the above described pipeline for other interesting BGCs.</abstract>
+      <note type="statement of responsibility">Cytryn, E., Brady, S.F., Frenkel, O.</note>
+      <note>Bard second annual report is-5177-19</note>
+      <note>Project award year: 2020</note>
+      <note>OnlineOnlineResource (viewed 28 september 2023)</note>
+      <subject authority="lcsh">
+         <topic>Plants, Protection of</topic>
+         <topic>Research</topic>
+      </subject>
+      <subject authority="lcsh">
+         <topic>Antifungal agents</topic>
+      </subject>
+      <subject authority="lcsh">
+         <topic>Fungi in agriculture</topic>
+      </subject>
+      <classification authority="nal">SB950.7  .C98 2022</classification>
+      <location>
+         <url displayLabel="electronic resource"
+              usage="primary display"
+              note="CrossRef DOI Landing Page">https://handle.nal.usda.gov/10113/8134142 </url>
+      </location>
+      <location>
+         <url displayLabel="electronic resource" usage="primary display">https://www.bard-isus.com/FinalRep/5177.pdf</url>
+      </location>
+      <location>
+         <url displayLabel="Available in the National Agricultural Library Digital Collections">https://doi.org/10.32747/2022.8134142.bard </url>
+      </location>
+      <identifier type="hdl">10113/8134142 </identifier>
+      <identifier type="doi">10.32747/2022.8134142.bard </identifier>
+      <identifier type="control">9916405831107426</identifier>
+      <identifier type="oclc">on1400205506</identifier>
+      <identifier type="agricola">CAT109916405831107426</identifier>
+      <identifier type="local">agid:8134142</identifier>
+      <extension>
+         <note type="saleTape">20230928  00000000  00000000</note>
+         <note type="publicationSource">Non-US</note>
+      </extension>
+      <recordInfo>
+         <descriptionStandard>rda </descriptionStandard>
+         <recordContentSource authority="marcorg">AGL </recordContentSource>
+         <recordCreationDate encoding="marc">230928</recordCreationDate>
+         <recordChangeDate encoding="iso8601">20230930223827.0</recordChangeDate>
+         <recordIdentifier>9916405831107426</recordIdentifier>
+         <recordOrigin>Converted from MARCXML to MODS version 3.7 using NAL-MARC21slim2MODS3-7-prefix.xsl (Revision 1.183 20230615 cm3), Transformed on: 11/17/2023 at 11:02 a.m.</recordOrigin>
+         <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng </languageTerm>
+         </languageOfCataloging>
+      </recordInfo>
+   </mods>
+   <mods version="3.7">
+      <titleInfo>
+         <title>Identification, characterization and testing of geographically conserved Babesia bovis vaccine antigen candidates</title>
+      </titleInfo>
+      <name type="personal" usage="primary">
+         <namePart type="given">Massaro Wilson</namePart>
+         <namePart type="family">Ueti</namePart>
+         <displayForm>Ueti, Massaro Wilson </displayForm>
+         <affiliation>Agricultural Research Service.</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="given">Monica Leszkowicz</namePart>
+         <namePart type="family">Mazuz</namePart>
+         <displayForm>Mazuz, Monica Leszkowicz </displayForm>
+         <affiliation>Kimron Veterinary Institute.</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="corporate">
+         <namePart>United States-Israel Binational Agricultural Research and Development Fund, </namePart>
+         <role>
+            <roleTerm type="text">sponsor</roleTerm>
+         </role>
+      </name>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="rdacontent">text </genre>
+      <genre authority="DNAL">report paper </genre>
+      <originInfo>
+         <place>
+            <placeTerm type="code" authority="marccountry">is</placeTerm>
+            <placeTerm type="text">Israel</placeTerm>
+         </place>
+         <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+         <issuance>monographic</issuance>
+      </originInfo>
+      <originInfo eventType="publisher">
+         <place>
+            <placeTerm type="text">[Israel?] : </placeTerm>
+         </place>
+         <publisher>United States-Israel Binational Agricultural Research and Development Fund, </publisher>
+         <dateIssued>2022</dateIssued>
+      </originInfo>
+      <language>
+         <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+         <languageTerm type="text">English</languageTerm>
+      </language>
+      <physicalDescription>
+         <form authority="marccategory">electronic resource</form>
+         <form authority="marcsmd">remote</form>
+         <form type="media" authority="rdamedia">computer </form>
+         <form type="carrier" authority="rdacarrier">online resource </form>
+         <extent>1 online resource (14 pages) :  charts</extent>
+      </physicalDescription>
+      <abstract displayLabel="Abstract">During the development of this project, we selected four potential B. bovis antigens for a subunit vaccine to prevent the clinical signs of acute bovine babesiosis. Selection of the target antigens was based on: (1) profile of expression in parasite blood stages; (2) prediction for protein location on the parasite surface and/or on the surface of infected red blood cells; and (3) target conservation between US and Israeli strains of B. bovis. Following these criteria, the B. bovis targets BBOV_IV009170, BBOV_III007410, BBOV_II001790, and BBOV_III008720 were selected. Full-length genomic sequences of these four targets were compared between Israeli and US strains of B. bovis. Four Israeli parasite strains/isolates were selected for gene conservation analysis: sample ID \ 3330 (from Refet Netofa); sample ID \ 2673 (Refet Netofa); Sample ID Newe Yaar - Shahar; and the Israeli B. bovis cultured live vaccine 2S61411. The reference B. bovis Texas stain was also used in the analysis. Sequencing analysis showed considerable levels of conservation ranging from 72.2-91.1% and 84.6-94.1% of amino acid identity and similarity, respectively, by comparing Israeli and US B. bovis strains. Recombinant version of the four target antigens were produced in E. coli, purified by nickel columns, and used for antigenic and immunogenic analyses. Antigenic analysis revealed that B. bovis-infected cattle develop high antibody titers to BBOV_III008720. In contrast, no antibodies against BBOV_IV009170, BBOV_III007410, and BBOV_II001790 were detected in sera from infected cattle. Vaccine trial of the four antigens in cattle is currently being carried out. However, preliminary data show that after three inoculations all vaccinated animals (n=5) seroconverted to all four B. bovis antigens. At the time of the preparation of this report, vaccinated and control animals are being challenged with a virulent B. bovis strain from Israel to evaluate protection. Results from the vaccination/trial experiment will set the future directions of this work. Considering the overall results from this project, two manuscripts are currently in preparation. A manuscript currently in preparation will describe the bioinformatics analysis and antigenic evaluation of the four transmembrane B. bovis proteins as potential targets for a subunit vaccine. A second manuscript will report the results from the vaccination/challenge trial. We believe that we have successfully accomplished our objective in this project. By developing this work, we have identified, expressed, and tested conserved antigens for a potential subunit vaccine against B. bovis, and have advanced the state-of-the-art concerning the development of an efficient and sustainable control strategy to bovine babesiosis.</abstract>
+      <note type="statement of responsibility">Ueti. M., Leszkowicz Mazuz, M.</note>
+      <note>Bard second annual report us-5157-19</note>
+      <note>OnlineOnlineResource (viewed 28 september 2023)</note>
+      <subject authority="lcsh">
+         <topic>Babesiosis in cattle</topic>
+      </subject>
+      <subject authority="lcsh">
+         <topic>Babesiosis</topic>
+         <topic>Immunological aspects</topic>
+      </subject>
+      <classification authority="nal">SF791  .U48 2022</classification>
+      <location>
+         <url displayLabel="electronic resource"
+              usage="primary display"
+              note="CrossRef DOI Landing Page ">https://handle.nal.usda.gov/10113/8134143</url>
+      </location>
+      <location>
+         <url displayLabel="electronic resource" usage="primary display">https://www.bard-isus.com/FinalRep/5157.pdf</url>
+      </location>
+      <location>
+         <url displayLabel="Available in the National Agricultural Library Digital Collections">https://dx.doi.org/10.32747/2022.8134143.bard </url>
+      </location>
+      <identifier type="hdl">10113/8134143 </identifier>
+      <identifier type="doi">10.32747/2022.8134143.bard </identifier>
+      <identifier type="control">9916405831207426</identifier>
+      <identifier type="oclc">on1400203925</identifier>
+      <identifier type="agricola">CAT109916405831207426</identifier>
+      <identifier type="local">agid:8134143</identifier>
+      <extension>
+         <note type="saleTape">20230928  00000000  00000000</note>
+         <note type="publicationSource">Non-US</note>
+      </extension>
+      <recordInfo>
+         <descriptionStandard>rda </descriptionStandard>
+         <recordContentSource authority="marcorg">AGL </recordContentSource>
+         <recordCreationDate encoding="marc">230928</recordCreationDate>
+         <recordChangeDate encoding="iso8601">20230930222953.0</recordChangeDate>
+         <recordIdentifier>9916405831207426</recordIdentifier>
+         <recordOrigin>Converted from MARCXML to MODS version 3.7 using NAL-MARC21slim2MODS3-7-prefix.xsl (Revision 1.183 20230615 cm3), Transformed on: 11/17/2023 at 11:02 a.m.</recordOrigin>
+         <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng </languageTerm>
+         </languageOfCataloging>
+      </recordInfo>
+   </mods>
+   <mods version="3.7">
+      <titleInfo>
+         <title>Distributed UV LEDs for combined control of fouling of drip emitters and disinfection during irrigation with reclaimed wastewater effluent</title>
+      </titleInfo>
+      <name type="personal" usage="primary">
+         <namePart type="given">Eran</namePart>
+         <namePart type="family">Friedler</namePart>
+         <displayForm>Friedler, Eran </displayForm>
+         <affiliation>Technion R&amp;D Foundation Ltd.</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="given">Karl G.</namePart>
+         <namePart type="family">Linden</namePart>
+         <displayForm>Linden, Karl G. </displayForm>
+         <affiliation>The University of Colorado.</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="corporate">
+         <namePart>United States-Israel Binational Agricultural Research and Development Fund, </namePart>
+         <role>
+            <roleTerm type="text">sponsor</roleTerm>
+         </role>
+      </name>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="rdacontent">text </genre>
+      <genre authority="DNAL">report paper </genre>
+      <originInfo>
+         <place>
+            <placeTerm type="code" authority="marccountry">is</placeTerm>
+            <placeTerm type="text">Israel</placeTerm>
+         </place>
+         <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+         <issuance>monographic</issuance>
+      </originInfo>
+      <originInfo eventType="publisher">
+         <place>
+            <placeTerm type="text">[Israel?] : </placeTerm>
+         </place>
+         <publisher>United States-Israel Binational Agricultural Research and Development Fund, </publisher>
+         <dateIssued>2022</dateIssued>
+      </originInfo>
+      <language>
+         <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+         <languageTerm type="text">English</languageTerm>
+      </language>
+      <physicalDescription>
+         <form authority="marccategory">electronic resource</form>
+         <form authority="marcsmd">remote</form>
+         <form type="media" authority="rdamedia">computer </form>
+         <form type="carrier" authority="rdacarrier">online resource </form>
+         <extent>1 online resource (8 pages)</extent>
+      </physicalDescription>
+      <abstract displayLabel="Abstract">Irrigating crops with reclaimed wastewater, replacing potable water, using drip irrigation has become more common as demands on water supplies have increased. Because of the quality characteristics of treated wastewater, the small size and geometry of drip emitters, and flow characteristics though the emitters, systems can become clogged for physical and biological reasons. Emitters clogging reduces flow and increases the variability of flows between emitters that can lead to crops water stress and thus reduce crop yield. Clogged systems require more energy or more labor- and chemical-intensive maintenance and cleaning, such as with chlorine. Ultraviolet (UV) irradiation, and specifically UV-C (200-300 nm) light emitting diodes (LEDs) have great promise for disinfection and biofouling prevention in irrigation water systems. LEDs are particularly well-suited for decentralized use in drip irrigation systems due to their small size, robust construction, low power requirements, long life, and intermittent operation capability. The main goal of this research was to study and develop UV-LED irradiation technology for reducing biofouling of drip irrigation fed by treated effluent, and to explore whether locating the UV-LEDs along the irrigation line as an integral part of the system could be advantageous.</abstract>
+      <note type="statement of responsibility">Friedler, E., Linden, K.G.</note>
+      <note>Bard final report is-5130-18</note>
+      <note>Project award year: 2018</note>
+      <note>OnlineOnlineResource (viewed 28 september 2023)</note>
+      <subject authority="lcsh">
+         <topic>Water</topic>
+         <topic>Purification</topic>
+         <topic>Irradiation</topic>
+      </subject>
+      <subject authority="lcsh">
+         <topic>Irrigation efficiency</topic>
+      </subject>
+      <subject authority="lcsh">
+         <topic>Microirrigation</topic>
+      </subject>
+      <subject authority="lcsh">
+         <topic>Water reuse</topic>
+      </subject>
+      <classification authority="nal">TD476  .F75 2022</classification>
+      <location>
+         <url displayLabel="electronic resource" usage="primary display">https://www.bard-isus.com/FinalRep/5130.pdf</url>
+      </location>
+      <location>
+         <url displayLabel="electronic resource" note="CrossRef DOI Landing Page">https://handle.nal.usda.gov/10113/8134144 </url>
+      </location>
+      <location>
+         <url displayLabel="Available in the National Agricultural Library Digital Collections">https://dx.doi.org/10.32747/2022.8134144.bard </url>
+      </location>
+      <identifier type="hdl">10113/8134144 </identifier>
+      <identifier type="doi">10.32747/2022.8134144.bard </identifier>
+      <identifier type="control">9916405831607426</identifier>
+      <identifier type="oclc">on1400075291</identifier>
+      <identifier type="agricola">CAT109916405831607426</identifier>
+      <identifier type="local">agid:8134144</identifier>
+      <extension>
+         <note type="saleTape">20230928  00000000  00000000</note>
+         <note type="publicationSource">Non-US</note>
+      </extension>
+      <recordInfo>
+         <descriptionStandard>rda </descriptionStandard>
+         <recordContentSource authority="marcorg">AGL </recordContentSource>
+         <recordCreationDate encoding="marc">230928</recordCreationDate>
+         <recordChangeDate encoding="iso8601">20230930224438.0</recordChangeDate>
+         <recordIdentifier>9916405831607426</recordIdentifier>
+         <recordOrigin>Converted from MARCXML to MODS version 3.7 using NAL-MARC21slim2MODS3-7-prefix.xsl (Revision 1.183 20230615 cm3), Transformed on: 11/17/2023 at 11:02 a.m.</recordOrigin>
+         <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng </languageTerm>
+         </languageOfCataloging>
+      </recordInfo>
+   </mods>
+   <mods version="3.7">
+      <titleInfo>
+         <title>Green nature inspired nano-sanitizers for enhancing safety of ready-to-eat fruits and vegetables</title>
+      </titleInfo>
+      <name type="personal" usage="primary">
+         <namePart type="given">E.</namePart>
+         <namePart type="family">Poverenov</namePart>
+         <displayForm>Poverenov, E. </displayForm>
+         <affiliation>Agricultural Research Organization</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="given">Philip</namePart>
+         <namePart type="family">Demokritou</namePart>
+         <displayForm>Demokritou, Philip </displayForm>
+         <affiliation>Harvard University</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="given">Yaguang</namePart>
+         <namePart type="family">Luo</namePart>
+         <displayForm>Luo, Yaguang </displayForm>
+         <affiliation>USDA, Agricultural Research Service</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="given">V.</namePart>
+         <namePart type="family">Rodov</namePart>
+         <displayForm>Rodov, V. </displayForm>
+         <affiliation>Agricultural Research Organization</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="corporate">
+         <namePart>United States-Israel Binational Agricultural Research and Development Fund</namePart>
+      </name>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="rdacontent">text </genre>
+      <genre authority="DNAL">report paper </genre>
+      <originInfo>
+         <place>
+            <placeTerm type="code" authority="marccountry">is</placeTerm>
+            <placeTerm type="text">Israel</placeTerm>
+         </place>
+         <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+         <issuance>monographic</issuance>
+      </originInfo>
+      <originInfo eventType="publisher">
+         <place>
+            <placeTerm type="text">[Israel?] : </placeTerm>
+         </place>
+         <publisher>United States-Israel Binational Agricultural Research and Development Fund, </publisher>
+         <dateIssued>2022</dateIssued>
+      </originInfo>
+      <language>
+         <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+         <languageTerm type="text">English</languageTerm>
+      </language>
+      <physicalDescription>
+         <form authority="marccategory">electronic resource</form>
+         <form authority="marcsmd">remote</form>
+         <form type="media" authority="rdamedia">computer </form>
+         <form type="carrier" authority="rdacarrier">online resource </form>
+         <extent>1 online resource (14 pages)</extent>
+      </physicalDescription>
+      <abstract displayLabel="Abstract">In this proposal, we suggest novel ways to address food safety problems in the expanding sector of fresh, ready-to-eat, fresh-cut, minimally processed fruits and vegetables. These products are becoming increasingly popular with consumers because they provide an easy way to increase consumption of phytonutrient-rich fresh foods, as recommended by health experts. However, ready-to-eat fresh fruits and vegetables may be associated with two serious health hazards. The first hazard is microbiological; human pathogens, potentially present on raw fruits and vegetables, may survive the mild interventions of minimal processing and could be further spread by cross-contamination. The second hazard is chemical; typical decontamination techniques use chlorine derivatives and strong oxidizers, which can taint food products with potentially harmful and carcinogenic byproducts. The overall goal of this work is to provide consumers with healthy and safe ready-to-eat produce that is free of microbial and chemical hazards</abstract>
+      <note type="statement of responsibility">Poverenov, E., Demokritou, P., Luo, Y., Rodov, V.</note>
+      <note>Bard final report is-5146-18</note>
+      <note>Project award year: 2018</note>
+      <note>OnlineOnlineResource (viewed 28 september 2023)</note>
+      <subject authority="lcsh">
+         <topic>Food</topic>
+         <topic>Biotechnology</topic>
+         <topic>Safety measures</topic>
+      </subject>
+      <subject authority="lcsh">
+         <topic>Vegetables</topic>
+         <topic>Postharvest technology</topic>
+      </subject>
+      <subject authority="lcsh">
+         <topic>Fruit</topic>
+         <topic>Postharvest technology</topic>
+      </subject>
+      <subject authority="lcsh">
+         <topic>Green technology</topic>
+      </subject>
+      <classification authority="nal">TP248.65.F66  P68 2022</classification>
+      <location>
+         <url displayLabel="electronic resource" usage="primary display">https://www.bard-isus.com/FinalRep/5146.pdf</url>
+      </location>
+      <location>
+         <url displayLabel="electronic resource" note="CrossRef DOI Landing Page">https://handle.nal.usda.gov/10113/8134145 </url>
+      </location>
+      <location>
+         <url displayLabel="Available in the National Agricultural Library Digital Collections">https://dx.doi.org/10.32747/2022.8134145.bard </url>
+      </location>
+      <identifier type="hdl">10113/8134145 </identifier>
+      <identifier type="doi">10.32747/2022.8134145.bard </identifier>
+      <identifier type="control">9916405831807426</identifier>
+      <identifier type="oclc">on1400074808</identifier>
+      <identifier type="agricola">CAT109916405831807426</identifier>
+      <identifier type="local">agid:8134145</identifier>
+      <extension>
+         <note type="saleTape">20230928  00000000  00000000</note>
+         <note type="publicationSource">Non-US</note>
+      </extension>
+      <recordInfo>
+         <descriptionStandard>rda </descriptionStandard>
+         <recordContentSource authority="marcorg">AGL </recordContentSource>
+         <recordCreationDate encoding="marc">230928</recordCreationDate>
+         <recordChangeDate encoding="iso8601">20230930222136.0</recordChangeDate>
+         <recordIdentifier>9916405831807426</recordIdentifier>
+         <recordOrigin>Converted from MARCXML to MODS version 3.7 using NAL-MARC21slim2MODS3-7-prefix.xsl (Revision 1.183 20230615 cm3), Transformed on: 11/17/2023 at 11:02 a.m.</recordOrigin>
+         <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng </languageTerm>
+         </languageOfCataloging>
+      </recordInfo>
+   </mods>
+   <mods version="3.7">
+      <titleInfo>
+         <title>Developing synthetic sex ratio distorters for the genetic control of the Mediterranean fruit fly and the New World screwworm</title>
+      </titleInfo>
+      <name type="personal" usage="primary">
+         <namePart type="given">Philippos</namePart>
+         <namePart type="family">Papathanos</namePart>
+         <displayForm>Papathanos, Philippos </displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+         <role>
+            <roleTerm type="text">The Hebrew University of Jerusalem</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="given">Max J.</namePart>
+         <namePart type="family">Scott</namePart>
+         <displayForm>Scott, Max J. </displayForm>
+         <affiliation>North Carolina State University.</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="corporate">
+         <namePart>United States-Israel Binational Agricultural Research and Development Fund, </namePart>
+         <role>
+            <roleTerm type="text">sponsor</roleTerm>
+         </role>
+      </name>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="rdacontent">text </genre>
+      <genre authority="DNAL">report paper </genre>
+      <originInfo>
+         <place>
+            <placeTerm type="code" authority="marccountry">is</placeTerm>
+            <placeTerm type="text">Israel</placeTerm>
+         </place>
+         <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+         <issuance>monographic</issuance>
+      </originInfo>
+      <originInfo eventType="publisher">
+         <place>
+            <placeTerm type="text">[Israel?] : </placeTerm>
+         </place>
+         <publisher>United States-Israel Binational Agricultural Research and Development Fund, </publisher>
+         <dateIssued>2022</dateIssued>
+      </originInfo>
+      <language>
+         <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+         <languageTerm type="text">English</languageTerm>
+      </language>
+      <physicalDescription>
+         <form authority="marccategory">electronic resource</form>
+         <form authority="marcsmd">remote</form>
+         <form type="media" authority="rdamedia">computer </form>
+         <form type="carrier" authority="rdacarrier">online resource </form>
+         <extent>1 online resource (8 pages)</extent>
+      </physicalDescription>
+      <note type="statement of responsibility">Papathanos, P., Scott M.J.</note>
+      <note>Bard final report is-5180-19</note>
+      <note>Project award year: 2019</note>
+      <note>OnlineOnlineResource (viewed 28 september 2023)</note>
+      <subject authority="lcsh">
+         <topic>Insect pests</topic>
+         <topic>Biological control</topic>
+      </subject>
+      <subject authority="lcsh">
+         <topic>Plants, Protection of</topic>
+      </subject>
+      <subject authority="lcsh">
+         <topic>Mediterranean fruit-fly</topic>
+         <topic>Control</topic>
+      </subject>
+      <subject authority="lcsh">
+         <topic>Screwworm</topic>
+         <topic>Control</topic>
+      </subject>
+      <classification authority="nal">SB933.3  .P37 2022</classification>
+      <location>
+         <url displayLabel="electronic resource"
+              usage="primary display"
+              note="CrossRef DOI Landing Page">https://handle.nal.usda.gov/10113/8134146 </url>
+      </location>
+      <location>
+         <url displayLabel="electronic resource" usage="primary display">https://www.bard-isus.com/FinalRep/5180.pdf</url>
+      </location>
+      <identifier type="hdl">10113/8134146 </identifier>
+      <identifier type="doi">10.32747/2022.8134146.bard </identifier>
+      <identifier type="control">9916405929507426</identifier>
+      <identifier type="oclc">on1400205844</identifier>
+      <identifier type="agricola">CAT109916405929507426</identifier>
+      <identifier type="local">agid:8134146</identifier>
+      <extension>
+         <note type="saleTape">20230928  00000000  00000000</note>
+         <note type="publicationSource">Non-US</note>
+      </extension>
+      <recordInfo>
+         <descriptionStandard>rda </descriptionStandard>
+         <recordContentSource authority="marcorg">AGL </recordContentSource>
+         <recordCreationDate encoding="marc">230928</recordCreationDate>
+         <recordChangeDate encoding="iso8601">20230930224533.0</recordChangeDate>
+         <recordIdentifier>9916405929507426</recordIdentifier>
+         <recordOrigin>Converted from MARCXML to MODS version 3.7 using NAL-MARC21slim2MODS3-7-prefix.xsl (Revision 1.183 20230615 cm3), Transformed on: 11/17/2023 at 11:02 a.m.</recordOrigin>
+         <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng </languageTerm>
+         </languageOfCataloging>
+      </recordInfo>
+   </mods>
+   <mods version="3.7">
+      <titleInfo>
+         <title>Risk of soil erosion by water estimated with remotely-sensed rainfall data, process based models and weather generators</title>
+      </titleInfo>
+      <name type="personal" usage="primary">
+         <namePart type="given">Efrat</namePart>
+         <namePart type="family">Morin</namePart>
+         <displayForm>Morin, Efrat </displayForm>
+         <affiliation>The Hebrew University of Jerusalem</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="given">David C.</namePart>
+         <namePart type="family">Goodrich</namePart>
+         <displayForm>Goodrich, David C. </displayForm>
+         <affiliation>USDA, Agricultural Research Service AZ</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="given">Shmuel</namePart>
+         <namePart type="family">Assouline</namePart>
+         <displayForm>Assouline, Shmuel </displayForm>
+         <affiliation>Agricultural Research Organization</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="given">M. A.  (Mark A.)</namePart>
+         <namePart type="family">Nearing</namePart>
+         <displayForm>Nearing, M. A.  (Mark A.) </displayForm>
+         <affiliation>Agricultural Research Service AZ</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="given">Eli</namePart>
+         <namePart type="family">Argaman</namePart>
+         <displayForm>Argaman, Eli </displayForm>
+         <affiliation>Agricultural Research Organization</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="given">D. Phillip</namePart>
+         <namePart type="family">Guertin</namePart>
+         <displayForm>Guertin, D. Phillip </displayForm>
+         <affiliation>Arizona Board of Regents, The University of Arizona AZ</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="given">Mariano</namePart>
+         <namePart type="family">Hernandez</namePart>
+         <displayForm>Hernandez, Mariano </displayForm>
+         <affiliation>Agricultural Research Service AZ</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="corporate">
+         <namePart>United States-Israel Binational Agricultural Research and Development Fund, </namePart>
+         <role>
+            <roleTerm type="text">sponsor</roleTerm>
+         </role>
+      </name>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="rdacontent">text </genre>
+      <genre authority="DNAL">report paper </genre>
+      <originInfo>
+         <place>
+            <placeTerm type="code" authority="marccountry">is</placeTerm>
+            <placeTerm type="text">Israel</placeTerm>
+         </place>
+         <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+         <issuance>monographic</issuance>
+      </originInfo>
+      <originInfo eventType="publisher">
+         <place>
+            <placeTerm type="text">[Israel?] : </placeTerm>
+         </place>
+         <publisher>United States-Israel Binational Agricultural Research and Development Fund, </publisher>
+         <dateIssued>2022</dateIssued>
+      </originInfo>
+      <language>
+         <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+         <languageTerm type="text">English</languageTerm>
+      </language>
+      <physicalDescription>
+         <form authority="marccategory">electronic resource</form>
+         <form authority="marcsmd">remote</form>
+         <form type="media" authority="rdamedia">computer </form>
+         <form type="carrier" authority="rdacarrier">online resource </form>
+         <extent>1 online resource (70 pages) :  illustrations</extent>
+      </physicalDescription>
+      <note type="statement of responsibility">E. Morin, D.C. Goodrich, S. Assouline, M.A. Nearing, E. Argaman, D.P. Guertin, M. Hernandez</note>
+      <note>Bard final report is-5124-18</note>
+      <note>Project award year: 2018. three year research project.</note>
+      <note>OnlineOnlineResource (viewed 27 september 2023)</note>
+      <subject authority="lcsh">
+         <topic>Soil erosion</topic>
+      </subject>
+      <subject authority="lcsh">
+         <topic>Remote sensing</topic>
+      </subject>
+      <subject authority="lcsh">
+         <topic>Rain and rainfall</topic>
+      </subject>
+      <classification authority="nal">S627.R45  M67 2022</classification>
+      <location>
+         <url displayLabel="electronic resource" usage="primary display">https://www.bard-isus.com/FinalRep/5124.pdf</url>
+      </location>
+      <location>
+         <url displayLabel="electronic resource" note="CrossRef DOI Landing Page">https://handle.nal.usda.gov/10113/8134147 </url>
+      </location>
+      <location>
+         <url displayLabel="Available in the National Agricultural Library Digital Collections">https://dx.doi.org/10.32747/2022.8134147.bard </url>
+      </location>
+      <identifier type="hdl">10113/8134147 </identifier>
+      <identifier type="doi">10.32747/2022.8134147.bard </identifier>
+      <identifier type="control">9916405931207426</identifier>
+      <identifier type="oclc">on1399970663</identifier>
+      <identifier type="agricola">CAT109916405931207426</identifier>
+      <identifier type="local">agid:8134147</identifier>
+      <extension>
+         <note type="saleTape">20230928  00000000  00000000</note>
+         <note type="publicationSource">Non-US</note>
+      </extension>
+      <recordInfo>
+         <descriptionStandard>rda </descriptionStandard>
+         <recordContentSource authority="marcorg">AGL </recordContentSource>
+         <recordCreationDate encoding="marc">230927</recordCreationDate>
+         <recordChangeDate encoding="iso8601">20230930224609.0</recordChangeDate>
+         <recordIdentifier>9916405931207426</recordIdentifier>
+         <recordOrigin>Converted from MARCXML to MODS version 3.7 using NAL-MARC21slim2MODS3-7-prefix.xsl (Revision 1.183 20230615 cm3), Transformed on: 11/17/2023 at 11:02 a.m.</recordOrigin>
+         <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng </languageTerm>
+         </languageOfCataloging>
+      </recordInfo>
+   </mods>
+   <mods version="3.7">
+      <titleInfo>
+         <title>Fine tuning the shoot and inflorescence architectures for improved tomato yield</title>
+      </titleInfo>
+      <name type="personal" usage="primary">
+         <namePart type="given">Y</namePart>
+         <namePart type="family">Eshed</namePart>
+         <displayForm>Eshed, Y </displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="given">Z. B.</namePart>
+         <namePart type="family">Lippman</namePart>
+         <displayForm>Lippman, Z. B. </displayForm>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="corporate">
+         <namePart>United States-Israel Binational Agricultural Research and Development Fund, </namePart>
+         <role>
+            <roleTerm type="text">sponsor</roleTerm>
+         </role>
+      </name>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="rdacontent">text </genre>
+      <genre authority="DNAL">report paper </genre>
+      <originInfo>
+         <place>
+            <placeTerm type="code" authority="marccountry">is</placeTerm>
+            <placeTerm type="text">Israel</placeTerm>
+         </place>
+         <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+         <issuance>monographic</issuance>
+      </originInfo>
+      <originInfo eventType="publisher">
+         <place>
+            <placeTerm type="text">[Israel?] : </placeTerm>
+         </place>
+         <publisher>United States-Israel Binational Agricultural Research and Development Fund, </publisher>
+         <dateIssued>2022</dateIssued>
+      </originInfo>
+      <language>
+         <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+         <languageTerm type="text">English</languageTerm>
+      </language>
+      <physicalDescription>
+         <form authority="marccategory">electronic resource</form>
+         <form authority="marcsmd">remote</form>
+         <form type="media" authority="rdamedia">computer </form>
+         <form type="carrier" authority="rdacarrier">online resource </form>
+         <extent>1 online resource (9 pages)</extent>
+      </physicalDescription>
+      <abstract displayLabel="Abstract">In this project, we are determining the contribution of different types of variations, in gene function and in gene regulation, to altered shoot architecture first, and to field performance in the next stage. We are using tomato as a target, but also as a model for many other crops. Our focus is on two different components of yield associated traits - shoot architecture and organization of the inflorescence. Our focus was on two types of regulators; 1) genes involved in florigen - antiflogen balance and the way they impact the shoot, and 2) genes involved in inflorescence branching and it this way, the way they impact the number of flowers produced by the plant. For the first class, we described our thoughts on that matter in a joint review (Eshed and Lippman, 2019) where we argued that annualization of short-lived vine plants such as tomato and soybean was their major adaptation for intensive modern farming. This annualization was achieved by introduction of mutations in the anti florigen gene SELFPRUNING, mutations that were also used to domesticate/adapt cotton, roses, strawberries and more (Eshed and Lippman, 2019). Indeed, introduction of this mutation and additional one in another antifloraigen gene SP5G into a vine type tomatoes resulted in compact, early yielding plants suitable for urban agriculture (Kwon et al., 2020 - please note that Yossi Capua, a former graduate student from the Eshed group is a coauthor of this study). The other side of this project, customized generation of large branched inflorescences, relied on ongoing collaboration between the two labs on genes like S and genes of the SEP clade, J2 and EJ2. We first showed that highly branched j2 ej2 inflorescences can be quantitatively modified by introduction of either null or naturally weak alleles of the TM3/STM3 gene cluster (Alonge et al., 2020). We next showed that variation in inflorescence branching can be obtained by customized interreference in selected promoter motifs of S, a gene that is otherwise essential at the seed stage (Hendelamn et al., 2021). Overall, our joint project provided some prime examples for targeted use of genome editing for the formation of valuable alleles that can either improve modern crops or, significantly, open the door for rapid "domestication" of orphan crops</abstract>
+      <note type="statement of responsibility">Y. Eshed, Z. B. Lippman</note>
+      <note>"bard final report is-5120-18c"</note>
+      <note>Cover title.</note>
+      <note>Project award year: 2018. three year research project.</note>
+      <subject authority="lcsh">
+         <topic>Plant genetic engineering</topic>
+      </subject>
+      <subject authority="lcsh">
+         <topic>Tomatoes</topic>
+      </subject>
+      <subject authority="lcsh">
+         <topic>Plant genomes</topic>
+      </subject>
+      <classification authority="nal">QK981.5  E74 2022</classification>
+      <location>
+         <url displayLabel="electronic resource" usage="primary display">https://www.bard-isus.com/FinalRep/5120.pdf</url>
+      </location>
+      <location>
+         <url displayLabel="electronic resource" note="CrossRef DOI Landing Page">https://handle.nal.usda.gov/10113/8134148 </url>
+      </location>
+      <location>
+         <url displayLabel="Available in the National Agricultural Library Digital Collections">https://dx.doi.org/10.32747/2022.8134148.bard </url>
+      </location>
+      <identifier type="hdl">10113/8134148 </identifier>
+      <identifier type="doi">10.32747/2022.8134148.bard </identifier>
+      <identifier type="control">9916405933607426</identifier>
+      <identifier type="oclc">on1398631451</identifier>
+      <identifier type="agricola">CAT109916405933607426</identifier>
+      <identifier type="local">agid:8134148</identifier>
+      <extension>
+         <note type="publicationSource">Non-US</note>
+      </extension>
+      <recordInfo>
+         <descriptionStandard>rda </descriptionStandard>
+         <recordContentSource authority="marcorg">AGL </recordContentSource>
+         <recordCreationDate encoding="marc">230922</recordCreationDate>
+         <recordChangeDate encoding="iso8601">20230930224809.0</recordChangeDate>
+         <recordIdentifier>9916405933607426</recordIdentifier>
+         <recordOrigin>Converted from MARCXML to MODS version 3.7 using NAL-MARC21slim2MODS3-7-prefix.xsl (Revision 1.183 20230615 cm3), Transformed on: 11/17/2023 at 11:02 a.m.</recordOrigin>
+         <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng </languageTerm>
+         </languageOfCataloging>
+      </recordInfo>
+   </mods>
+   <mods version="3.7">
+      <titleInfo>
+         <title>Validation of candidate genes for a QTL responsible for water stress tolerance and their diversity in wheat</title>
+      </titleInfo>
+      <name type="personal" usage="primary">
+         <namePart type="given">Jorge</namePart>
+         <namePart type="family">Dubcovsky</namePart>
+         <displayForm>Dubcovsky, Jorge </displayForm>
+         <affiliation>The University of California, Davis.</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="given">T.  (Tzion)</namePart>
+         <namePart type="family">Fahima</namePart>
+         <displayForm>Fahima, T.  (Tzion) </displayForm>
+         <affiliation>University of Haifa.</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="corporate">
+         <namePart>United States-Israel Binational Agricultural Research and Development Fund, </namePart>
+         <role>
+            <roleTerm type="text">sponsor</roleTerm>
+         </role>
+      </name>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="rdacontent">text </genre>
+      <genre authority="DNAL">report paper </genre>
+      <originInfo>
+         <place>
+            <placeTerm type="code" authority="marccountry">is</placeTerm>
+            <placeTerm type="text">Israel</placeTerm>
+         </place>
+         <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+         <issuance>monographic</issuance>
+      </originInfo>
+      <originInfo eventType="publisher">
+         <place>
+            <placeTerm type="text">[Israel?] : </placeTerm>
+         </place>
+         <publisher>United States-Israel Binational Agricultural Research and Development Fund, </publisher>
+         <dateIssued>2022</dateIssued>
+      </originInfo>
+      <language>
+         <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+         <languageTerm type="text">English</languageTerm>
+      </language>
+      <physicalDescription>
+         <form authority="marccategory">electronic resource</form>
+         <form authority="marcsmd">remote</form>
+         <form type="media" authority="rdamedia">computer </form>
+         <form type="carrier" authority="rdacarrier">online resource </form>
+         <extent>1 online resource (19 pages) :  illustrations, charts</extent>
+      </physicalDescription>
+      <abstract displayLabel="Abstract">The main goals of this project as stated in the original proposal were to identify which of the candidate gene(s) identified in a 1.5 Mb region of wheat and rye chromosomes 1RS and 1BS were responsible for the differences in root architecture, reveal their natural variation and characterize the epistatic interactions that modulate their effect in different backgrounds. Background: Wheat is an essential crop for global food security and is well adapted to a wide variety of soils. However, the gene networks regulating different wheat root architectures remain poorly understood. Root depth and biomass distribution in the soil profile are critical traits for adaptation to water stress, and a good source for these traits is the introgression of the short arm of rye chromosome one (1RS) into common wheat. A recombinant 1RS chromosome with a small wheat 1BS introgressions and a duplicated 1RS segment (1RW) showed reduced drought tolerance and was used for the identification of the causal genes.</abstract>
+      <note>Bard final report us-5191-19c</note>
+      <note>Project award year: 2019</note>
+      <note>OnlineOnlineResource (viewed 28 september 2023)</note>
+      <subject authority="lcsh">
+         <topic>Plant genetics</topic>
+      </subject>
+      <subject authority="lcsh">
+         <topic>Wheat</topic>
+         <topic>Effect of stress on</topic>
+      </subject>
+      <classification authority="nal">QK981.5  .D83 2022</classification>
+      <location>
+         <url displayLabel="electronic resource"
+              usage="primary display"
+              note="CrossRef DOI Landing Page">https://handle.nal.usda.gov/10113/8134149 </url>
+      </location>
+      <location>
+         <url displayLabel="electronic resource" usage="primary display">https://www.bard-isus.com/FinalRep/5191.pdf</url>
+      </location>
+      <location>
+         <url displayLabel="Available in the National Agricultural Library Digital Collections">https://dx.doi.org/10.32747/2022.8134149.bard </url>
+      </location>
+      <identifier type="hdl">10113/8134149 </identifier>
+      <identifier type="doi">10.32747/2022.8134149.bard </identifier>
+      <identifier type="control">9916406029207426</identifier>
+      <identifier type="oclc">on1400208305</identifier>
+      <identifier type="agricola">CAT109916406029207426</identifier>
+      <identifier type="local">agid:8134149</identifier>
+      <extension>
+         <note type="saleTape">20230928  00000000  00000000</note>
+         <note type="publicationSource">Non-US</note>
+      </extension>
+      <recordInfo>
+         <descriptionStandard>rda </descriptionStandard>
+         <recordContentSource authority="marcorg">AGL </recordContentSource>
+         <recordCreationDate encoding="marc">230928</recordCreationDate>
+         <recordChangeDate encoding="iso8601">20230930224917.0</recordChangeDate>
+         <recordIdentifier>9916406029207426</recordIdentifier>
+         <recordOrigin>Converted from MARCXML to MODS version 3.7 using NAL-MARC21slim2MODS3-7-prefix.xsl (Revision 1.183 20230615 cm3), Transformed on: 11/17/2023 at 11:02 a.m.</recordOrigin>
+         <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng </languageTerm>
+         </languageOfCataloging>
+      </recordInfo>
+   </mods>
+   <mods version="3.7">
+      <titleInfo>
+         <title>Climate change and the dairy sector in Israel and the US</title>
+      </titleInfo>
+      <name type="personal" usage="primary">
+         <namePart type="given">Eyal</namePart>
+         <namePart type="family">Frank</namePart>
+         <displayForm>Frank, Eyal </displayForm>
+         <affiliation>University of Chicago.</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="given">Ayal</namePart>
+         <namePart type="family">Kimhi</namePart>
+         <displayForm>Kimhi, Ayal </displayForm>
+         <affiliation>Hebrew University of Jerusalem.</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="given">R.</namePart>
+         <namePart type="family">Fishman</namePart>
+         <displayForm>Fishman, R. </displayForm>
+         <affiliation>Tel Aviv University.</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="corporate">
+         <namePart>United States-Israel Binational Agricultural Research and Development Fund, </namePart>
+         <role>
+            <roleTerm type="text">sponsor</roleTerm>
+         </role>
+      </name>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="rdacontent">text </genre>
+      <genre authority="DNAL">report paper </genre>
+      <originInfo>
+         <place>
+            <placeTerm type="code" authority="marccountry">is</placeTerm>
+            <placeTerm type="text">Israel</placeTerm>
+         </place>
+         <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+         <issuance>monographic</issuance>
+      </originInfo>
+      <originInfo eventType="publisher">
+         <place>
+            <placeTerm type="text">[Israel?] : </placeTerm>
+         </place>
+         <publisher>United States-Israel Binational Agricultural Research and Development Fund, </publisher>
+         <dateIssued>2022</dateIssued>
+      </originInfo>
+      <language>
+         <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+         <languageTerm type="text">English</languageTerm>
+      </language>
+      <physicalDescription>
+         <form authority="marccategory">electronic resource</form>
+         <form authority="marcsmd">remote</form>
+         <form type="media" authority="rdamedia">computer </form>
+         <form type="carrier" authority="rdacarrier">online resource </form>
+         <extent>1 online resource (50 pages) :  illustrations, charts</extent>
+      </physicalDescription>
+      <note type="statement of responsibility">Frank, E., Fishman, R., Kimhi, A.</note>
+      <note>Bard second annual report is-5150-19</note>
+      <note>Project award year: 2019</note>
+      <note>OnlineOnlineResource (viewed 28 september 2023)</note>
+      <subject authority="lcsh">
+         <topic>Dairy products industry</topic>
+         <topic>Environmental aspects</topic>
+         <geographic>Israel</geographic>
+      </subject>
+      <subject authority="lcsh">
+         <topic>Dairy products industry</topic>
+         <topic>Environmental aspects</topic>
+         <geographic>United States</geographic>
+      </subject>
+      <classification authority="nal">HD9275.I75  F73 2022</classification>
+      <location>
+         <url displayLabel="electronic resource"
+              usage="primary display"
+              note="CrossRef DOI Landing Page">https://handle.nal.usda.gov/10113/8134150 </url>
+      </location>
+      <location>
+         <url displayLabel="Available in the National Agricultural Library Digital Collections"
+              usage="primary display">https://dx.doi.org/10.32747/2022.8134150.bard </url>
+      </location>
+      <location>
+         <url displayLabel="electronic resource">https://www.bard-isus.com/FinalRep/5150.pdf</url>
+      </location>
+      <identifier type="hdl">10113/8134150 </identifier>
+      <identifier type="doi">10.32747/2022.8134150.bard </identifier>
+      <identifier type="control">9916406029507426</identifier>
+      <identifier type="oclc">on1400202933</identifier>
+      <identifier type="agricola">CAT109916406029507426</identifier>
+      <identifier type="local">agid:8134150</identifier>
+      <extension>
+         <note type="saleTape">20230928  00000000  00000000</note>
+         <note type="publicationSource">Non-US</note>
+      </extension>
+      <recordInfo>
+         <descriptionStandard>rda </descriptionStandard>
+         <recordContentSource authority="marcorg">AGL </recordContentSource>
+         <recordCreationDate encoding="marc">230928</recordCreationDate>
+         <recordChangeDate encoding="iso8601">20230930225021.0</recordChangeDate>
+         <recordIdentifier>9916406029507426</recordIdentifier>
+         <recordOrigin>Converted from MARCXML to MODS version 3.7 using NAL-MARC21slim2MODS3-7-prefix.xsl (Revision 1.183 20230615 cm3), Transformed on: 11/17/2023 at 11:02 a.m.</recordOrigin>
+         <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng </languageTerm>
+         </languageOfCataloging>
+      </recordInfo>
+   </mods>
+   <mods version="3.7">
+      <titleInfo>
+         <title>New insights into apple calcium application</title>
+         <subTitle>understanding its contradicting effects on postharvest disorders for improved fruit quality</subTitle>
+      </titleInfo>
+      <name type="personal" usage="primary">
+         <namePart type="given">Dan</namePart>
+         <namePart type="family">Gamrasni</namePart>
+         <displayForm>Gamrasni, Dan </displayForm>
+         <affiliation>Migal Galilee Technology Center</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="given">Lee</namePart>
+         <namePart type="family">Kalcits</namePart>
+         <displayForm>Kalcits, Lee </displayForm>
+         <affiliation>Washington State University</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="given">Haya</namePart>
+         <namePart type="family">Friedman</namePart>
+         <displayForm>Friedman, Haya </displayForm>
+         <affiliation>Agricultural Research Organization</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="given">C</namePart>
+         <namePart type="family">Ziv</namePart>
+         <displayForm>Ziv, C </displayForm>
+         <affiliation>Agricultural Research Organization</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="corporate">
+         <namePart>United States-Israel Binational Agricultural Research and Development Fund, </namePart>
+         <role>
+            <roleTerm type="text">sponsor</roleTerm>
+         </role>
+      </name>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="rdacontent">text </genre>
+      <genre authority="DNAL">report paper </genre>
+      <originInfo>
+         <place>
+            <placeTerm type="code" authority="marccountry">is</placeTerm>
+            <placeTerm type="text">Israel</placeTerm>
+         </place>
+         <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+         <issuance>monographic</issuance>
+      </originInfo>
+      <originInfo eventType="publisher">
+         <place>
+            <placeTerm type="text">[Israel?] : </placeTerm>
+         </place>
+         <publisher>United States-Israel Binational Agricultural Research and Development Fund, </publisher>
+         <dateIssued>2022</dateIssued>
+      </originInfo>
+      <language>
+         <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+         <languageTerm type="text">English</languageTerm>
+      </language>
+      <physicalDescription>
+         <form authority="marccategory">electronic resource</form>
+         <form authority="marcsmd">remote</form>
+         <form type="media" authority="rdamedia">computer </form>
+         <form type="carrier" authority="rdacarrier">online resource </form>
+         <extent>1 online resource (143 pages) :  illustrations</extent>
+      </physicalDescription>
+      <note type="statement of responsibility">D. Gamrasni, L. Kalcits, H. Friedman, C. Ziv</note>
+      <note>Bard final report is-5143-18r</note>
+      <note>Project award year: 2020</note>
+      <note>OnlineOnlineResource (viewed 27 september 2023)</note>
+      <subject authority="lcsh">
+         <topic>Postharvest diseases and injuries</topic>
+      </subject>
+      <subject authority="lcsh">
+         <topic>Apples</topic>
+      </subject>
+      <location>
+         <url displayLabel="electronic resource" usage="primary display">https://www.bard-isus.com/FinalRep/5143.pdf</url>
+      </location>
+      <location>
+         <url displayLabel="electronic resource" note="CrossRef DOI Landing Page">https://handle.nal.usda.gov/10113/8134151 </url>
+      </location>
+      <location>
+         <url displayLabel="Available in the National Agricultural Library Digital Collections">https://dx.doi.org/10.32747/2022.8134151.bard </url>
+      </location>
+      <identifier type="hdl">10113/8134151 </identifier>
+      <identifier type="doi">10.32747/2022.8134151.bard </identifier>
+      <identifier type="control">9916406030207426</identifier>
+      <identifier type="oclc">on1399981631</identifier>
+      <identifier type="agricola">CAT109916406030207426</identifier>
+      <identifier type="local">agid:8134151</identifier>
+      <extension>
+         <note type="saleTape">20230927  00000000  00000000</note>
+         <note type="publicationSource">Non-US</note>
+      </extension>
+      <recordInfo>
+         <descriptionStandard>rda </descriptionStandard>
+         <recordContentSource authority="marcorg">AGL </recordContentSource>
+         <recordCreationDate encoding="marc">230927</recordCreationDate>
+         <recordChangeDate encoding="iso8601">20230930225113.0</recordChangeDate>
+         <recordIdentifier>9916406030207426</recordIdentifier>
+         <recordOrigin>Converted from MARCXML to MODS version 3.7 using NAL-MARC21slim2MODS3-7-prefix.xsl (Revision 1.183 20230615 cm3), Transformed on: 11/17/2023 at 11:02 a.m.</recordOrigin>
+         <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng </languageTerm>
+         </languageOfCataloging>
+      </recordInfo>
+   </mods>
+   <mods version="3.7">
+      <titleInfo>
+         <title>Increasing water availability through agricultural groundwater recharge</title>
+      </titleInfo>
+      <name type="personal" usage="primary">
+         <namePart type="given">Alex</namePart>
+         <namePart type="family">Furman</namePart>
+         <displayForm>Furman, Alex </displayForm>
+         <affiliation>Technion R&amp;D Foundation Ltd.</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="given">Helen E.</namePart>
+         <namePart type="family">Dahlke</namePart>
+         <displayForm>Dahlke, Helen E. </displayForm>
+         <affiliation>The Regents of the University of California, Davis</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="given">Noam</namePart>
+         <namePart type="family">Weisbrod</namePart>
+         <displayForm>Weisbrod, Noam </displayForm>
+         <affiliation>Ben-Gurion University of the Negev</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="given">Eran</namePart>
+         <namePart type="family">Raveh</namePart>
+         <displayForm>Raveh, Eran </displayForm>
+         <affiliation>Agricultural Research Organization</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="corporate">
+         <namePart>United States-Israel Binational Agricultural Research and Development Fund, </namePart>
+         <role>
+            <roleTerm type="text">sponsor</roleTerm>
+         </role>
+      </name>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="rdacontent">text </genre>
+      <genre authority="DNAL">report paper </genre>
+      <originInfo>
+         <place>
+            <placeTerm type="code" authority="marccountry">is</placeTerm>
+            <placeTerm type="text">Israel</placeTerm>
+         </place>
+         <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+         <issuance>monographic</issuance>
+      </originInfo>
+      <originInfo eventType="publisher">
+         <place>
+            <placeTerm type="text">[Israel?] : </placeTerm>
+         </place>
+         <publisher>United States-Israel Binational Agricultural Research and Development Fund, </publisher>
+         <dateIssued>[2022]</dateIssued>
+      </originInfo>
+      <language>
+         <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+         <languageTerm type="text">English</languageTerm>
+      </language>
+      <physicalDescription>
+         <form authority="marccategory">electronic resource</form>
+         <form authority="marcsmd">remote</form>
+         <form type="media" authority="rdamedia">computer </form>
+         <form type="carrier" authority="rdacarrier">online resource </form>
+         <extent>1 online resource (85 pages) ;  illustrations, graphs, tables</extent>
+      </physicalDescription>
+      <note type="statement of responsibility">A. Furman, H.E. Dahlke, N. Weisbrod, E. Raveh</note>
+      <note>Bard final report is-5125-18 r</note>
+      <note>Project award year 2018</note>
+      <note>OnlineOnlineResource (viewed 27 september 2023)</note>
+      <subject authority="lcsh">
+         <topic>Groundwater recharge</topic>
+      </subject>
+      <subject authority="lcsh">
+         <topic>Water-supply, Agricultural</topic>
+      </subject>
+      <classification authority="nal">GB1197.77  F87 2022</classification>
+      <location>
+         <url displayLabel="electronic resource" usage="primary display">https://www.bard-isus.com/FinalRep/5125.pdf</url>
+      </location>
+      <location>
+         <url displayLabel="electronic resource" note="CrossRef DOI Landing Page">https://handle.nal.usda.gov/10113/8134152 </url>
+      </location>
+      <location>
+         <url displayLabel="Available in the National Agricultural Library Digital Collections">https://dx.doi.org/10.32747/2022.8134152.bard </url>
+      </location>
+      <identifier type="hdl">10113/8134152 </identifier>
+      <identifier type="doi">10.32747/2022.8134152.bard </identifier>
+      <identifier type="control">9916406030507426</identifier>
+      <identifier type="oclc">on1399975657</identifier>
+      <identifier type="agricola">CAT109916406030507426</identifier>
+      <identifier type="local">agid:8134152</identifier>
+      <extension>
+         <note type="saleTape">20230927  00000000  00000000</note>
+         <note type="publicationSource">Other US</note>
+      </extension>
+      <recordInfo>
+         <descriptionStandard>rda </descriptionStandard>
+         <recordContentSource authority="marcorg">AGL </recordContentSource>
+         <recordCreationDate encoding="marc">230927</recordCreationDate>
+         <recordChangeDate encoding="iso8601">20230930225157.0</recordChangeDate>
+         <recordIdentifier>9916406030507426</recordIdentifier>
+         <recordOrigin>Converted from MARCXML to MODS version 3.7 using NAL-MARC21slim2MODS3-7-prefix.xsl (Revision 1.183 20230615 cm3), Transformed on: 11/17/2023 at 11:02 a.m.</recordOrigin>
+         <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng </languageTerm>
+         </languageOfCataloging>
+      </recordInfo>
+   </mods>
+</modsCollection>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<marc:record xmlns:marc="http://www.loc.gov/MARC21/slim"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+        <marc:leader>05545cam a2200613 i 4500</marc:leader>
+        <marc:controlfield tag="001">9916406028307426</marc:controlfield>
+        <marc:controlfield tag="005">20231006170128.0</marc:controlfield>
+        <marc:controlfield tag="008">230929s2020    is a    ob    000 0 eng d</marc:controlfield>
+        <marc:datafield tag="016" ind1="7" ind2=" ">
+            <marc:subfield code="a">CAT109916406028307426</marc:subfield>
+            <marc:subfield code="2">DNAL</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="024" ind1="7" ind2=" ">
+            <marc:subfield code="a">10113/8134165</marc:subfield>
+            <marc:subfield code="2">hdl</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="024" ind1="7" ind2=" ">
+            <marc:subfield code="a">10.32747/2020.8134165.bard</marc:subfield>
+            <marc:subfield code="2">doi</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="035" ind1=" " ind2=" ">
+            <marc:subfield code="a">(OCoLC)on1401019784</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040" ind1=" " ind2=" ">
+            <marc:subfield code="a">AGL</marc:subfield>
+            <marc:subfield code="b">eng</marc:subfield>
+            <marc:subfield code="e">rda</marc:subfield>
+            <marc:subfield code="c">AGL</marc:subfield>
+            <marc:subfield code="d">AGL</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="049" ind1=" " ind2=" ">
+            <marc:subfield code="a">AGLL</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="050" ind1="1" ind2="4">
+            <marc:subfield code="a">SB211.P8</marc:subfield>
+            <marc:subfield code="b">Y43 2020</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="070" ind1="0" ind2=" ">
+            <marc:subfield code="a">SB211.P8</marc:subfield>
+            <marc:subfield code="b">Y43 2020</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100" ind1="1" ind2=" ">
+            <marc:subfield code="a">Yedidia, I.</marc:subfield>
+            <marc:subfield code="e">author</marc:subfield>
+            <marc:subfield code="u">Agricultural Research Organization</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245" ind1="1" ind2="0">
+            <marc:subfield code="a">Small molecule cocktails designed to impair virulence targets in soft rot Erwinias /</marc:subfield>
+            <marc:subfield code="c">I. Yedida, H. Senderowitz, A.O. Charkowski.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="264" ind1=" " ind2="1">
+            <marc:subfield code="a">Israel :</marc:subfield>
+            <marc:subfield code="b">United States-Israel Binational Agricultural Research and Development Fund,</marc:subfield>
+            <marc:subfield code="c">2020</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300" ind1=" " ind2=" ">
+            <marc:subfield code="a">1 online resource (36 pages) :</marc:subfield>
+            <marc:subfield code="b">color illustrations</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="336" ind1=" " ind2=" ">
+            <marc:subfield code="a">text</marc:subfield>
+            <marc:subfield code="b">txt</marc:subfield>
+            <marc:subfield code="2">rdacontent</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="337" ind1=" " ind2=" ">
+            <marc:subfield code="a">computer</marc:subfield>
+            <marc:subfield code="b">c</marc:subfield>
+            <marc:subfield code="2">rdamedia</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="338" ind1=" " ind2=" ">
+            <marc:subfield code="a">online resource</marc:subfield>
+            <marc:subfield code="b">cr</marc:subfield>
+            <marc:subfield code="2">rdacarrier</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="593" ind1=" " ind2=" ">
+            <marc:subfield code="e">report paper</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500" ind1=" " ind2=" ">
+            <marc:subfield code="a">&quot;Three year research project&quot;</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500" ind1=" " ind2=" ">
+            <marc:subfield code="a">&quot;Project award year: 2017&quot;</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500" ind1=" " ind2=" ">
+            <marc:subfield code="a">&quot;BARD Final Report IS-5033-17&quot;</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="504" ind1=" " ind2=" ">
+            <marc:subfield code="a">Includes bibliographical references (page 36)</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="520" ind1="3" ind2=" ">
+            <marc:subfield code="a">Chemical signaling between beneficial or pathogenic bacteria and plants is a central factor in determining the outcome of plant-microbe interactions. Pectobacterium and Dickeya (soft rot Erwinias) are the major cause of soft rot, stem rot, and blackleg formed on potato and ornamentals, currently with no effective control. Our major aim was to establish and study specific bacterial genes/proteins as targets for anti-virulence compounds, by combining drug design tools and bioinformatics with experimental work. The approach allowed us to identify and test compounds (small molecules) that specifically interfere with the activities of these targets, by this impairing bacterial virulence. Two main targets were selected within the frame of the BARD project. The first is the ATP-binding cassette (ABC) transporters and methyl-accepting chemotaxis proteins (MCP) that have been characterized here for the first time in Pectobacteriaceae, and the second is the quorum sensing (QS) machinery of Pectobacterium with its major proteins and in particular, the AHL synthase ExpI that was identified as the preferred target for inhibition. Both systems are strongly associated with bacterial virulence and survival in planta. We found that Pectobacteriaceae, namely Dickeya and Pectobacterium, encode more ABC transporters and MCP in their genomes, compared to other bacteria in the order. For MCP, soft rot Pectobacteriaceae not only contain more than 30 MCP genes per strain, but also have more diverse ligand binding domains than other species in the Enterobacteriales. These findings suggest that both ABC transporters and MCP are important for soft rot Pectobacteriaceae pathogenicity. We now have a selection of mutants in these proteins that may be further explored to understand their direct involvement in virulence. In parallel, we studied the QS central proteins in pectobacteria, the signaling molecule N-acyl-homoserine lactone synthase, ExpI, and the response regulator ExpR, and established their phylogenetic relations within plant pathogenic Gram negative bacteria. Next, these proteins were used for virtual screening of millions of compounds in order to discover new compounds with potential to interfere with the QS machinery. Several natural compounds were tested for their interference with virulence related traits in Pectobacterium and their capability to minimize soft rot infections. Our findings using microcalorimetric binding studies have established for the first time direct interaction between the protein ExpI and two natural ligands, the plant hormone salicylic acid and the volatile compound carvacrol. These results supported a model by which plants interfere with bacterial communication through interkingdom signaling. The collaborative project yielded two research papers and a comprehensive review, which included new computational and bioinformatics data, in Annu. Rev. Phytopathol., the highest ranked journal in phytopathology. Additional two papers are in preparation. In order to transform the fundamental knowledge that have been gained during this collaborative BARD project into agricultural practice, to control soft rot bacteria, we have submitted a continual project.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="655" ind1=" " ind2="7">
+            <marc:subfield code="a">report paper</marc:subfield>
+            <marc:subfield code="2">DNAL</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Potatoes</marc:subfield>
+            <marc:subfield code="x">Pathogens.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650" ind1=" " ind2="0">
+            <marc:subfield code="a">Plants, Ornamental</marc:subfield>
+            <marc:subfield code="x">Pathogens.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="653" ind1="0" ind2=" ">
+            <marc:subfield code="a">Erwinias</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="787" ind1="1" ind2=" ">
+            <marc:subfield code="o">product_naldc</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="787" ind1="1" ind2=" ">
+            <marc:subfield code="o">naldc_COLL00002</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="700" ind1="1" ind2=" ">
+            <marc:subfield code="a">Senderowitz, H.,</marc:subfield>
+            <marc:subfield code="e">author</marc:subfield>
+            <marc:subfield code="u">Bar Ilan University</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="700" ind1="1" ind2=" ">
+            <marc:subfield code="a">Charkowski, A. O.,</marc:subfield>
+            <marc:subfield code="e">author</marc:subfield>
+            <marc:subfield code="u">University of Wisconsin-Madison</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="710" ind1="2" ind2=" ">
+            <marc:subfield code="a">United States-Israel Binational Agricultural Research and Development Fund,</marc:subfield>
+            <marc:subfield code="e">sponsoring body.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="710" ind1="2" ind2=" ">
+            <marc:subfield code="a">Minhal ha-meḥḳar ha-ḥaḳlaʼi (Israel)</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="856" ind1="4" ind2="0">
+            <marc:subfield code="u">https://www.bard-isus.com/FinalRep/5033.pdf</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="856" ind1=" " ind2=" ">
+            <marc:subfield code="u">https://handle.nal.usda.gov/10113/8134165</marc:subfield>
+            <marc:subfield code="z">CrossRef DOI Landing Page</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="856" ind1="4" ind2="0">
+            <marc:subfield code="u">https://doi.org/10.32747/2020.8134165.bard</marc:subfield>
+            <marc:subfield code="z">Available in the National Agricultural Library Digital Collections</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="912" ind1=" " ind2=" ">
+            <marc:subfield code="a">Digital item</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="926" ind1=" " ind2=" ">
+            <marc:subfield code="a">PDF model</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="930" ind1=" " ind2=" ">
+            <marc:subfield code="a">20231006</marc:subfield>
+            <marc:subfield code="b">00000000</marc:subfield>
+            <marc:subfield code="c">00000000</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="946" ind1=" " ind2=" ">
+            <marc:subfield code="a">Non-US</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="958" ind1=" " ind2=" ">
+            <marc:subfield code="b">e</marc:subfield>
+            <marc:subfield code="c">2023/09/29</marc:subfield>
+            <marc:subfield code="d">o</marc:subfield>
+            <marc:subfield code="e">pdesai</marc:subfield>
+            <marc:subfield code="h">cfr</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="964" ind1=" " ind2=" ">
+            <marc:subfield code="a">BARD</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="965" ind1=" " ind2=" ">
+            <marc:subfield code="a">2023-10-06</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="972" ind1=" " ind2=" ">
+            <marc:subfield code="a">Issued</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="974" ind1=" " ind2=" ">
+            <marc:subfield code="a">agid:8134165</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="987" ind1=" " ind2=" ">
+            <marc:subfield code="a">pdesai</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="990" ind1=" " ind2=" ">
+            <marc:subfield code="c">NAL DOI Collection</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="994" ind1=" " ind2=" ">
+            <marc:subfield code="a">C0</marc:subfield>
+            <marc:subfield code="b">AGL</marc:subfield>
+        </marc:datafield>
+    </marc:record>
