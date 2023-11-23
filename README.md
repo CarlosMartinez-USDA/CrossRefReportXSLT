@@ -30,6 +30,6 @@ There have been 2 major upgrades to the Reporting Schema since 4.4.2. The versio
  -  works well for instances where a  contributor is affiliated with more than one institution.
  - Thus a new subelement is introduced:
  - `<institution>` is a container tag for two identifying sub-elements:
-	  1. <institution_name> 
-	   2. <institution_id> - element to support ROR and other org IDs.
+	1. <institution_name> 
+	2. <institution_id> - element to support ROR and other org IDs.
 - Either the `<institution_name>` or `<institution_id>` is required for an affiliation to be valid. 
