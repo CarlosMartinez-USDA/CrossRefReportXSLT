@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns="http://www.crossref.org/schema/5.3.1"
+           version="5.3.1"
+           xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 https://www.crossref.org/schemas/crossref5.3.1.xsd">
+   <head>
+      <doi_batch_id>report_paper-2023-11-23T21:35:17.941633-05:00</doi_batch_id>
+      <timestamp>20231123213517941633</timestamp>
+      <depositor>
+         <depositor_name>Carlos Martinez III</depositor_name>
+         <email_address>carlos.martinez2@usda.gov</email_address>
+      </depositor>
+      <registrant>National Agricultural Library</registrant>
+   </head>
+   <body>
+      <report-paper xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 https://www.crossref.org/schemas/crossref5.3.1.xsd">
+         <report-paper_metadata language="en">
+            <contributors>
+               <person_name sequence="first" contributor_role="author">
+                  <given_name>S.</given_name>
+                  <surname>Droby</surname>
+                  <affiliations>
+                     <institution>
+                        <institution_name>Agricultural Research Organization</institution_name>
+                     </institution>
+                  </affiliations>
+               </person_name>
+               <person_name sequence="additional" contributor_role="author">
+                  <given_name>J. L.</given_name>
+                  <surname>Norelli</surname>
+                  <affiliations>
+                     <institution>
+                        <institution_name>USDA, Agricultural Research Service WV</institution_name>
+                     </institution>
+                  </affiliations>
+               </person_name>
+               <person_name sequence="additional" contributor_role="author">
+                  <given_name>M. E.</given_name>
+                  <surname>Wisniewski</surname>
+                  <affiliations>
+                     <institution>
+                        <institution_name>USDA, Agricultural Research Service WV</institution_name>
+                     </institution>
+                  </affiliations>
+               </person_name>
+               <person_name sequence="additional" contributor_role="author">
+                  <given_name>S.</given_name>
+                  <surname>Freilich</surname>
+                  <affiliations>
+                     <institution>
+                        <institution_name>Agricultural Research Organization</institution_name>
+                     </institution>
+                  </affiliations>
+               </person_name>
+               <person_name sequence="additional" contributor_role="author">
+                  <given_name>A.</given_name>
+                  <surname>Faigenboim</surname>
+                  <affiliations>
+                     <institution>
+                        <institution_name>Agricultural Research Organization</institution_name>
+                     </institution>
+                  </affiliations>
+               </person_name>
+               <person_name sequence="additional" contributor_role="author">
+                  <given_name>C.</given_name>
+                  <surname>Dardick</surname>
+                  <affiliations>
+                     <institution>
+                        <institution_name>USDA, Agricultural Research Service WV</institution_name>
+                     </institution>
+                  </affiliations>
+               </person_name>
+               <organization sequence="additional" contributor_role="author">United States-Israel Binational Agricultural Research and Development Fund,sponsoring body.</organization>
+               <organization sequence="additional" contributor_role="author">Minhal ha-meḥḳar ha-ḥaḳlaʼi (Israel)</organization>
+            </contributors>
+            <titles>
+               <title>Microbial networks on harvested apples and the design of antagonistic consortia to control postharvest pathogens </title>
+            </titles>
+            <abstract xmlns="http://www.ncbi.nlm.nih.gov/JATS1">
+               <p>We have demonstrated, at a global level, the existence of spatial variation in the fungal and bacterial composition of different fruit tissues. The composition, diversity and abundance varied in fruit harvested in different geographical locations and suggests a potential link between location and the type and rate of postharvest diseases that develop in each country. The global core microbiome of apple fruit was determined and found to be represented by several beneficial microbial taxa and accounted for a large fraction of the fruit microbial community. To further characterize apple fruit the microbiome after harvest, a detailed study was performed to evaluate effects of postharvest practices on the composition of the fruit peel. Microbiota. Results of this work conformed our findings that tissue-type is the main factor driving fungal and bacterial diversity and community composition on apple fruit. Both postharvest treatments and low temperature storage had a great impact on the fungal and bacterial diversity and community composition of these tissue types. Distinct spatial and temporal changes in the composition and diversity of the microbiota were observed in response to various postharvest management practices. Our results clearly indicated that apple fruit has a unique core microbiome that is universal. Analysis of the microbiome across Malus species indicates that the microbiome of domesticated apple has a higher diversity and abundance and is an admixture of the microbiome present in its wild progenitors, with clear evidence for introgression. These findings support the existence of co-evolution between Malus species and their microbiome during domestication. A network analysis of the metagenomics data was used to further elucidate functional differences between the microbiome of organic vs. conventional fruit. Our analysis predicted a link between Capnodiales and the degradation of aromatic compounds. Alternaria, a genus in the Capnodiales genus, is one of the main pathogens of stored apple fruit and was also abundant in our samples. The potential role of Alternaria in the degradation of aromatic compounds is in agreement with previous studies indicating a link between Alternaria and the metabolism of the aromatic compound, alphafarnesene38, a key volatile secreted by the fruit during maturation. A greater number of metabolic pathways related to plant defense substances (e.g. terpenoids and alkaloids) were identified in the microbiome of organic fruit samples, while more antibiotic-related metabolic pathways for compounds such as Erythromycin, Avermectin, Ansamycin, and Penicillin were present in the microbiome of apple fruit samples grown using conventional management practices</p>
+            </abstract>
+            <publication_date media_type="online">
+               <year>2020</year>
+            </publication_date>
+            <publisher>
+               <publisher_name>United States-Israel Binational Agricultural Research and Development Fund</publisher_name>
+               <publisher_place>Israel</publisher_place>
+            </publisher>
+            <doi_data>
+               <doi>10.32747/2020.8134164.bard</doi>
+               <resource>https://handle.nal.usda.gov/10113/8134164</resource>
+            </doi_data>
+         </report-paper_metadata>
+      </report-paper>
+   </body>
+</doi_batch>

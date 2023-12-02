@@ -26,6 +26,7 @@
 		</xd:desc>
 	</xd:doc>
 	<xsl:include href="NAL-MARC21slimUtils.xsl"/>
+	<xsl:include href="query-inst-id.xsl"/>
 	<xsl:include href="commons/functions.xsl"/>
 	<!-- global parameters -->
 	<xd:doc scope="component">
@@ -44,6 +45,7 @@
 	<xd:doc>
 		<xd:desc>
 			<xd:p>Function used to create a value for the timestamp element</xd:p>
+			<xd:p>Authored by Amanda Xu</xd:p>
 		</xd:desc>
 	</xd:doc>
 	<xsl:function name="f:createTimestamp">
@@ -86,6 +88,8 @@
 		</xsl:if>
 		<year><xsl:value-of select="$tokenizedDate[1]"/></year>
 	</xsl:function>
+	
+
 
 <!-- Templates -->	
 	<xd:doc>
@@ -167,24 +171,36 @@
 					</xsl:attribute>					
 			    <!-- contributors -->
 					<contributors>
-						<xsl:apply-templates select="marc:datafield[@tag = '100']" mode="name"/>
-						<xsl:apply-templates select="marc:datafield[@tag = '700'][not(marc:subfield[@code = 't'])]" mode="name"/>
-						<xsl:apply-templates select="marc:datafield[@tag = '110']" mode="name"/>
-						<xsl:apply-templates select="marc:datafield[@tag = '710'][not(marc:subfield[@code = 't'])]" mode="name"/>
-						<xsl:apply-templates select="marc:datafield[@tag = '111']" mode="name"/>
-						<xsl:apply-templates select="marc:datafield[@tag = '711'][not(marc:subfield[@code = 't'])]" mode="name"/>
+						<xsl:apply-templates select="marc:datafield[@tag = '100'] | marc:datafield[@tag = '880'][starts-with(marc:subfield[@code = '6'], '100')]"
+							mode="name"/>
+						<xsl:apply-templates select="marc:datafield[@tag = '700'][not(marc:subfield[@code = 't'])] | marc:datafield[@tag = '880'][starts-with(marc:subfield[@code = '6'], '700')][not(marc:subfield[@code = 't'])]"
+							mode="name"/>
+						<xsl:apply-templates select="marc:datafield[@tag = '110'] | marc:datafield[@tag = '880'][starts-with(marc:subfield[@code = '6'], '110')]"
+							mode="name"/>
+						<xsl:apply-templates select="marc:datafield[@tag = '710'][not(marc:subfield[@code = 't'])] | marc:datafield[@tag = '880'][starts-with(marc:subfield[@code = '6'], '710')][not(marc:subfield[@code = 't'])]"
+							mode="name"/>
+						<xsl:apply-templates select="marc:datafield[@tag = '111'] | marc:datafield[@tag = '880'][starts-with(marc:subfield[@code = '6'], '111')]"
+							mode="name"/>
+						<xsl:apply-templates select="marc:datafield[@tag = '711'][not(marc:subfield[@code = 't'])] | marc:datafield[@tag = '880'][starts-with(marc:subfield[@code = '6'], '711')][not(marc:subfield[@code = 't'])]"
+							mode="name"/>
 					</contributors>					
 				<!-- titles -->
-					<titles><xsl:apply-templates select="marc:datafield[@tag='245']" mode="title"/></titles>
+					<titles>
+					<xsl:apply-templates select="marc:datafield[@tag='245'] | marc:datafield[@tag='880'][@ind2!='2'][starts-with(marc:subfield[@code='6'],'245')]"
+						mode="title"/>					
+					</titles>
 				<!-- abstract -->
 					<xsl:apply-templates select="marc:datafield[@tag='520']/marc:subfield[@code='a']"/>
-				<!-- publisher -->				
-						<xsl:call-template name="publication_date"/>
+				<!-- dateIssued -->				
+						<xsl:call-template name="dateIssued"/>
 						<xsl:apply-templates select="marc:datafield[@tag = '264']" mode="publisher"/>
-				<!-- doi/hdl -->
+			     <!-- org id -->
+					<!-- added experimental template to query ror api and return and transform json response -->
+					<xsl:apply-templates select="name[@type='corporate']/namePart" mode="inst_id"/>
+				<!-- identifier -->
 					<doi_data>
-						<xsl:apply-templates select="marc:datafield[@tag='024']/marc:subfield[@code='a']" mode="doi"/> 
-				    	<xsl:apply-templates select="marc:datafield[@tag='856']/marc:subfield[@code='u']" mode="resource"/>
+						<xsl:apply-templates select="marc:datafield[@tag='024']//marc:subfield[@code='a']" mode="doi"/> 
+				    	<xsl:apply-templates select="marc:datafield[@tag='856']//marc:subfield[@code='u']" mode="resource"/>
 					</doi_data>
 				</report-paper_metadata>
 			</report-paper>
@@ -208,8 +224,9 @@
 	<xd:doc>
 		<xd:desc>100 - main entry | 700 - added entry - personal name </xd:desc>
 	</xd:doc>
-	<xsl:template match="marc:datafield[@tag = '100'][not(marc:subfield[@code = 't'])] |
-		marc:datafield[@tag = '700'][not(marc:subfield[@code = 't'])]" mode="name">
+	<xsl:template match="marc:datafield[@tag = '100'][not(marc:subfield[@code = 't'])] | marc:datafield[@tag = '880'][starts-with(marc:subfield[@code = '6'], '100')][not(marc:subfield[@code = 't'])]
+		| marc:datafield[@tag = '700'][not(marc:subfield[@code = 't'])] | marc:datafield[@tag = '880'][starts-with(marc:subfield[@code = '6'], '700')][not(marc:subfield[@code = 't'])]"
+		mode="name">
 		<xsl:variable name="role" select="local:stripPunctuation(normalize-space(marc:subfield[@code = 'e'][1]))"/> 
 		<xsl:variable name="valid" as="xs:boolean" select="$role=('author', 'editor', 'chair', 'reviewer', 'review-assistant', 'stats-reviewer', 'reviewer-external', 'reader', 'translator')"/>
 		<person_name sequence="{f:addSequence(.)}">
@@ -224,6 +241,7 @@
 					</xsl:otherwise>
 				</xsl:choose>
 			</xsl:attribute>
+			<xsl:call-template name="xxx880"/>
 			<!-- given -->
 			<xsl:for-each select="marc:subfield[@code = 'a']">
 				<given_name>					
@@ -251,16 +269,20 @@
 	<xd:doc>
 		<xd:desc>110/710 - main entry - corporate name</xd:desc>
 	</xd:doc>
-	<xsl:template match="marc:datafield[@tag = '110'] | marc:datafield[@tag = '710'][not(marc:subfield[@code = 't'])]" mode="name">
+	<xsl:template match="marc:datafield[@tag = '110'] | marc:datafield[@tag = '880'][starts-with(marc:subfield[@code = '6'], '110')]
+			| marc:datafield[@tag = '710'][not(marc:subfield[@code = 't'])] | marc:datafield[@tag = '880'][starts-with(marc:subfield[@code = '6'], '710')][not(marc:subfield[@code = 't'])]" mode="name">
 		<xsl:if test="marc:subfield[@code != 't']">
 			<organization sequence="{f:addSequence(.)}" contributor_role="{'author'}">
+				<xsl:call-template name="xxx880"/>
 				<!-- name -->
 				<xsl:for-each select="marc:subfield[@code = 'a'] | marc:subfield[@code = 'b']">
+					<!-- xml:space="preserve" -->	
 					<xsl:value-of xml:space="preserve" select="local:stripPunctuation(normalize-space(.))"/>
 				</xsl:for-each>
 				<xsl:if
 					test="marc:subfield[@code = 'c'] or marc:subfield[@code = 'd'] or marc:subfield[@code = 'n']">
 					<namePart>
+						<!-- xml:space="preserve" -->
 						<xsl:value-of xml:space="preserve" select="substring-before(local:subfieldSelect(., 'cdn'), ',')"/>
 					</namePart>
 				</xsl:if>
@@ -274,23 +296,35 @@
 	<xd:doc>
 		<xd:desc> 111/711 - main entry - meeting name </xd:desc>
 	</xd:doc>
-	<xsl:template match="marc:datafield[@tag = '111'] | marc:datafield[@tag = '711'][not(marc:subfield[@code = 't'])]" mode="name">
+	<xsl:template match="
+			marc:datafield[@tag = '111'] | marc:datafield[@tag = '880'][starts-with(marc:subfield[@code = '6'], '111')]
+			| marc:datafield[@tag = '711'][not(marc:subfield[@code = 't'])] | marc:datafield[@tag = '880'][starts-with(marc:subfield[@code = '6'], '711')][not(marc:subfield[@code = 't'])]"
+		mode="name">
 		<xsl:if test="marc:subfield[@code != 't']">
 			<name type="conference">
+				<xsl:call-template name="xxx880"/>
+<!--				<xsl:call-template name="nameTitleGroup"/>-->
 				<xsl:apply-templates select="marc:subfield[@code = '0'][. != '']" mode="valueURI"/>
 				<!-- conference -->
 				<conference>
 					<xsl:value-of select="local:subfieldSelect(., 'acdenq')"/>
 				</conference>
 				<xsl:apply-templates select="marc:subfield[@code = '1'][. != '']" mode="nameIdentifier"/>
+				<!--check nameID type-->
+				<!--
+				orcid id
+				wikidata id
+				viaf id
+				real world object in lc name "rwo"
+				-->
 			</name>
 		</xsl:if>
 	</xsl:template>
 	
 
-	<!-- affiliation -->
+	<!-- name subelements -->
 	<xd:doc>
-		<xd:desc>affiliation</xd:desc>
+		<xd:desc>Affiliation</xd:desc>
 	</xd:doc>
 	<xsl:template match="marc:subfield[@code = 'u']" mode="affiliation">
 		<affiliations>
@@ -303,7 +337,7 @@
 		</affiliations>
 	</xsl:template>
 
-	<!-- ORCID -->	
+	<!-- nameIdentifier -->	
 	<xd:doc>
 		<xd:desc>ORCID</xd:desc>
 	</xd:doc>
@@ -317,7 +351,11 @@
 	<xd:doc>
 		<xd:desc> 245 title main entry </xd:desc>
 	</xd:doc>
-	<xsl:template match="marc:datafield[@tag='245']" mode="title">
+	<xsl:template
+		match="marc:datafield[@tag='245'] | marc:datafield[@tag='880'][starts-with(marc:subfield[@code='6'],'245')]"
+		mode="title">
+			<!-- Template checks for altRepGroup - 880 $6 -->
+			<xsl:call-template name="xxx880"/>
 		<!-- $b basis for selection other subfields-->
 			<xsl:variable name="title">
 				<xsl:choose>
@@ -438,11 +476,10 @@
 		</abstract>
 	</xsl:template>
 	
-	<!-- publication_date -->
 	<xd:doc>
-		<xd:desc> publication_date from MARC 008</xd:desc>
+		<xd:desc> dateIssued </xd:desc>
 	</xd:doc>
-	<xsl:template name="publication_date"> 
+	<xsl:template name="dateIssued"> 
 		<!-- analyze string to build w3cdtf dates -->
 		<xsl:analyze-string select="substring(marc:controlfield[@tag = '008'], 1, 15)"
 			regex="(\d+)(\w)(\d+)">
@@ -492,6 +529,31 @@
 	   </publisher>
 	</xsl:template>
 	
+	
+	<xd:doc>
+		<xd:desc> institution_id </xd:desc>
+		<xd:param name="org"/>
+	</xd:doc>
+	<xsl:template match="name[@type='corporate']/namePart" mode="inst_id">
+	<xsl:param name="org" tunnel="yes"/>
+		<xsl:call-template name="inst_id">
+			<xsl:with-param name="org" select="$org"/>
+			<xsl:with-param name="input"/>
+		</xsl:call-template>
+	</xsl:template> 
+	
+	<xd:doc>
+		<xd:desc/>
+		<xd:param name="org"/>
+		<xd:param name="input"/>
+	</xd:doc>
+	<xsl:template name="inst_id">
+		<xsl:param name="org"/>
+		<xsl:param name="input" select="json-doc(concat('https://api.ror.org/organizations?affiliation=', encode-for-uri($org)))"/>
+		<xsl:apply-templates select="json-to-xml(unparsed-text($input))"/>
+	</xsl:template>
+
+
 <!-- DOI -->
 	<xd:doc>
 		<xd:desc>DOI</xd:desc>
@@ -509,12 +571,95 @@
 		<xd:desc>NAL Handle</xd:desc>
 	</xd:doc>
 	<xsl:template match="marc:datafield[@tag='856']/marc:subfield[@code='u']" mode="resource">
-		<xsl:if test="starts-with(. ,'https://handle.nal.usda.gov')">
-			<resource>						
-	  		<xsl:value-of select="."/>
-			</resource>
+				<xsl:if test="starts-with(. ,'https://handle.nal.usda.gov')">
+					<resource>						
+					<xsl:value-of select="."/>
+					</resource>
+				</xsl:if>
+	</xsl:template>
+	
+	
+	<!-- Transliteration template -->
+
+	<xd:doc>
+		<xd:desc> 880 processing </xd:desc>
+	</xd:doc>
+	<xsl:template name="xxx880">
+		<!-- Checks for subfield $6 ands linking data -->
+		<xsl:if test="child::marc:subfield[@code = '6']">
+			<xsl:variable name="sf06" select="normalize-space(child::marc:subfield[@code = '6'])"/>
+			<xsl:variable name="sf06b" select="substring($sf06, 5, 2)"/>
+			<xsl:variable name="scriptCode" select="substring($sf06, 8, 2)"/>
+			<!-- @880$6-00 -->
+			<xsl:if test="$sf06b != '00'">
+				<xsl:attribute name="altRepGroup">
+					<xsl:value-of select="$sf06b"/>
+				</xsl:attribute>
+			</xsl:if>
+			<!-- 2.68 -->
+			<xsl:choose>
+				<xsl:when test="starts-with($sf06, '880-')">
+					<xsl:call-template name="scriptCode"/>
+				</xsl:when>
+				<xsl:when test="$scriptCode != '' and $scriptCode != ' '">
+					<xsl:choose>
+						<xsl:when test="$scriptCode = '(3'">
+							<xsl:attribute name="script">Arab</xsl:attribute>
+						</xsl:when>
+						<xsl:when test="$scriptCode = '(4'">
+							<xsl:attribute name="script">>Arab</xsl:attribute>
+						</xsl:when>
+						<xsl:when test="$scriptCode = '(B'">
+							<xsl:attribute name="script">Latn</xsl:attribute>
+						</xsl:when>
+						<xsl:when test="$scriptCode = '!E'">
+							<xsl:attribute name="script">Latn</xsl:attribute>
+						</xsl:when>
+						<xsl:when test="$scriptCode = '$1'">
+							<xsl:attribute name="script">CJK</xsl:attribute>
+						</xsl:when>
+						<xsl:when test="$scriptCode = '(N'">
+							<xsl:attribute name="script">Cyrl</xsl:attribute>
+						</xsl:when>
+						<xsl:when test="$scriptCode = '(Q'">
+							<xsl:attribute name="script">Cyrl</xsl:attribute>
+						</xsl:when>
+						<xsl:when test="$scriptCode = '(2'">
+							<xsl:attribute name="script">Hebr</xsl:attribute>
+						</xsl:when>
+						<xsl:when test="$scriptCode = '(S'">
+							<xsl:attribute name="script">Grek</xsl:attribute>
+						</xsl:when>
+					</xsl:choose>
+				</xsl:when>
+			</xsl:choose>
+			<!--<xsl:call-template name="scriptCode"/>-->
 		</xsl:if>
 	</xsl:template>
-
+	
+<!-- script code -->
+		<xd:doc>
+		<xd:desc> Script code template </xd:desc>
+	</xd:doc>
+	<xsl:template name="scriptCode">
+		<xsl:variable name="sf06" select="normalize-space(marc:subfield[@code = '6'])"/>
+		<xsl:variable name="scriptCode" select="substring($sf06, 8, 2)"/>
+		<xsl:if test="//marc:datafield/marc:subfield[@code = '6']">
+			<xsl:attribute name="script">
+				<xsl:choose>
+					<xsl:when test="$scriptCode = ''">Latn</xsl:when>
+					<xsl:when test="$scriptCode = '(3'">Arab</xsl:when>
+					<xsl:when test="$scriptCode = '(4'">Arab</xsl:when>
+					<xsl:when test="$scriptCode = '(B'">Latn</xsl:when>
+					<xsl:when test="$scriptCode = '!E'">Latn</xsl:when>
+					<xsl:when test="$scriptCode = '$1'">CJK</xsl:when>
+					<xsl:when test="$scriptCode = '(N'">Cyrl</xsl:when>
+					<xsl:when test="$scriptCode = '(Q'">Cyrl</xsl:when>
+					<xsl:when test="$scriptCode = '(2'">Hebr</xsl:when>
+					<xsl:when test="$scriptCode = '(S'">Grek</xsl:when>
+				</xsl:choose>
+			</xsl:attribute>
+		</xsl:if>
+	</xsl:template>
 
 </xsl:stylesheet>

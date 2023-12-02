@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns="http://www.crossref.org/schema/5.3.1"
+           version="5.3.1"
+           xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 https://www.crossref.org/schemas/crossref5.3.1.xsd">
+   <head>
+      <doi_batch_id>report_paper-2023-12-01T18:31:04.826316-05:00</doi_batch_id>
+      <timestamp>20231201183104826316</timestamp>
+      <depositor>
+         <depositor_name>Carlos Martinez III</depositor_name>
+         <email_address>carlos.martinez2@usda.gov</email_address>
+      </depositor>
+      <registrant>National Agricultural Library</registrant>
+   </head>
+   <body>
+      <report-paper>
+         <report-paper_metadata language="en">
+            <contributors>
+               <person_name sequence="first" contributor_role="author">
+                  <given_name>Eyal</given_name>
+                  <surname>Frank</surname>
+                  <affiliations>
+                     <institution>
+                        <institution_name>University of Chicago</institution_name>
+                     </institution>
+                  </affiliations>
+                  <ORCID>https://orcid.org/0000-0002-5876-5319</ORCID>
+               </person_name>
+               <person_name sequence="additional" contributor_role="author">
+                  <given_name>Ayal</given_name>
+                  <surname>Kimhi</surname>
+                  <affiliations>
+                     <institution>
+                        <institution_name>Hebrew University of Jerusalem</institution_name>
+                     </institution>
+                  </affiliations>
+                  <ORCID>https://orcid.org/0000-0002-6716-7118</ORCID>
+               </person_name>
+               <person_name sequence="additional" contributor_role="author">
+                  <given_name>R.</given_name>
+                  <surname>Fishman</surname>
+                  <affiliations>
+                     <institution>
+                        <institution_name>Tel Aviv University</institution_name>
+                     </institution>
+                  </affiliations>
+                  <ORCID>https://orcid.org/0000-0003-0381-9153</ORCID>
+               </person_name>
+               <organization sequence="additional" contributor_role="author">United States-Israel Binational Agricultural Research and Development Fund</organization>
+            </contributors>
+            <titles>
+               <title>Climate change and the dairy sector in Israel and the US</title>
+            </titles>
+            <publication_date media_type="online">
+               <month>10</month>
+               <day>19</day>
+               <year>2022</year>
+            </publication_date>
+            <publisher>
+               <publisher_name>United States-Israel Binational Agricultural Research and Development Fund</publisher_name>
+               <publisher_place>Israel </publisher_place>
+            </publisher>
+            <doi_data>
+               <doi>10.32747/2022.8134150.bard </doi>
+               <resource>https://handle.nal.usda.gov/10113/8134150 </resource>
+            </doi_data>
+         </report-paper_metadata>
+      </report-paper>
+      <report-paper>
+         <report-paper_metadata language="en">
+            <contributors>
+               <person_name sequence="first" contributor_role="author">
+                  <given_name>Dan</given_name>
+                  <surname>Gamrasni</surname>
+                  <affiliations>
+                     <institution>
+                        <institution_name>Migal Galilee Technology Center</institution_name>
+                     </institution>
+                  </affiliations>
+               </person_name>
+               <person_name sequence="additional" contributor_role="author">
+                  <given_name>Lee</given_name>
+                  <surname>Kalcits</surname>
+                  <affiliations>
+                     <institution>
+                        <institution_name>Washington State University</institution_name>
+                     </institution>
+                  </affiliations>
+               </person_name>
+               <person_name sequence="additional" contributor_role="author">
+                  <given_name>Haya</given_name>
+                  <surname>Friedman</surname>
+                  <affiliations>
+                     <institution>
+                        <institution_name>Agricultural Research Organization</institution_name>
+                     </institution>
+                  </affiliations>
+               </person_name>
+               <person_name sequence="additional" contributor_role="author">
+                  <given_name>C</given_name>
+                  <surname>Ziv</surname>
+                  <affiliations>
+                     <institution>
+                        <institution_name>Agricultural Research Organization</institution_name>
+                     </institution>
+                  </affiliations>
+               </person_name>
+               <organization sequence="additional" contributor_role="author">United States-Israel Binational Agricultural Research and Development Fund</organization>
+            </contributors>
+            <titles>
+               <title>New insights into apple calcium application</title>
+               <subtitle>understanding its contradicting effects on postharvest disorders for improved fruit quality</subtitle>
+            </titles>
+            <publication_date media_type="online">
+               <month>10</month>
+               <year>2022</year>
+            </publication_date>
+            <publisher>
+               <publisher_name>United States-Israel Binational Agricultural Research and Development Fund</publisher_name>
+               <publisher_place>Israel </publisher_place>
+            </publisher>
+            <doi_data>
+               <doi>10.32747/2022.8134151.bard </doi>
+               <resource>https://handle.nal.usda.gov/10113/8134151 </resource>
+            </doi_data>
+         </report-paper_metadata>
+      </report-paper>
+      <report-paper>
+         <report-paper_metadata language="en">
+            <contributors>
+               <person_name sequence="first" contributor_role="author">
+                  <given_name>Alex</given_name>
+                  <surname>Furman</surname>
+                  <affiliations>
+                     <institution>
+                        <institution_name>Technion R&amp;D Foundation Ltd</institution_name>
+                     </institution>
+                  </affiliations>
+               </person_name>
+               <person_name sequence="additional" contributor_role="author">
+                  <given_name>Helen E.</given_name>
+                  <surname>Dahlke</surname>
+                  <affiliations>
+                     <institution>
+                        <institution_name>The Regents of the University of California, Davis</institution_name>
+                     </institution>
+                  </affiliations>
+               </person_name>
+               <person_name sequence="additional" contributor_role="author">
+                  <given_name>Noam</given_name>
+                  <surname>Weisbrod</surname>
+                  <affiliations>
+                     <institution>
+                        <institution_name>Ben-Gurion University of the Negev</institution_name>
+                     </institution>
+                  </affiliations>
+               </person_name>
+               <person_name sequence="additional" contributor_role="author">
+                  <given_name>Eran</given_name>
+                  <surname>Raveh</surname>
+                  <affiliations>
+                     <institution>
+                        <institution_name>Agricultural Research Organization</institution_name>
+                     </institution>
+                  </affiliations>
+               </person_name>
+               <organization sequence="additional" contributor_role="author">United States-Israel Binational Agricultural Research and Development Fund</organization>
+            </contributors>
+            <titles>
+               <title>Increasing water availability through agricultural groundwater recharge</title>
+            </titles>
+            <publication_date media_type="online">
+               <year>2022</year>
+            </publication_date>
+            <publisher>
+               <publisher_name>United States-Israel Binational Agricultural Research and Development Fund</publisher_name>
+               <publisher_place>Israel </publisher_place>
+            </publisher>
+            <doi_data>
+               <doi>10.32747/2022.8134152.bard </doi>
+               <resource>https://handle.nal.usda.gov/10113/8134152 </resource>
+            </doi_data>
+         </report-paper_metadata>
+      </report-paper>
+   </body>
+</doi_batch>

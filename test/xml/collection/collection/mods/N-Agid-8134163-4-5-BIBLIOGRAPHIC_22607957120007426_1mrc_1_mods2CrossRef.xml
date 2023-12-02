@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns="http://www.crossref.org/schema/5.3.1"
+           version="5.3.1"
+           xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 https://www.crossref.org/schemas/crossref5.3.1.xsd">
+   <head>
+      <doi_batch_id>report_paper-2023-11-23T06:07:09.065965-05:00</doi_batch_id>
+      <timestamp>20231123060709065965</timestamp>
+      <depositor>
+         <depositor_name>Carlos Martinez III</depositor_name>
+         <email_address>carlos.martinez2@usda.gov</email_address>
+      </depositor>
+      <registrant>National Agricultural Library</registrant>
+   </head>
+   <body>
+      <report-paper>
+         <report-paper_metadata language="en">
+            <contributors>
+               <person_name sequence="first" contributor_role="author">
+                  <given_name>X. F.</given_name>
+                  <surname>Wang</surname>
+                  <affiliations>
+                     <institution>
+                        <institution_name>Virginia Polytech Inst. &amp; State Univ</institution_name>
+                     </institution>
+                  </affiliations>
+               </person_name>
+               <person_name sequence="additional" contributor_role="author">
+                  <given_name>M.</given_name>
+                  <surname>Schuldiner</surname>
+                  <affiliations>
+                     <institution>
+                        <institution_name>Weizmann Institute of Science</institution_name>
+                     </institution>
+                  </affiliations>
+               </person_name>
+               <organization sequence="additional" contributor_role="author">United States-Israel Binational Agricultural Research and Development Fund</organization>
+               <organization sequence="additional" contributor_role="author">Virginia Polytechnic Institute and State University</organization>
+            </contributors>
+            <titles>
+               <title>Systems biology approaches to dissect virus-host interactions to develop crops with broad-spectrum virus resistance</title>
+            </titles>
+            <abstract xmlns="http://www.ncbi.nlm.nih.gov/JATS1">
+               <p>More than 60% of plant viruses are positive-strand RNA viruses that cause billion-dollar losses annually and pose a major threat to stable agricultural production, including cucumber mosaic virus (CMV) that infects numerous vegetables and ornamental trees. A highly conserved feature among these viruses is that they form viral replication complexes (VRCs) to multiply their genomes by hijacking host proteins and remodeling host intracellular membranes. As a conserved and indispensable process, VRC assembly also represents an excellent target for the development of antiviral strategies that can be used to control a wide-range of viruses. Using CMV and a model virus, brome mosaic virus (BMV), and relying on genomic tools and tailor-made large-scale resources specific for the project, our original objectives were to: 1) Identify host proteins that are required for viral replication complex assembly. 2) Dissect host requirements that determine viral host range. 3) Provide proof-of-concept evidence of a viral control strategy by blocking the viral replication complex-localized phospholipid synthesis. We expect to provide new ways and new concepts to control multiple viruses by targeting a conserved feature among positive-strand RNA viruses based on our results. Our work is going according to the expected timeline and we are progressing well on all aims. For Objective 1, among ~6,000 yeast genes, we have identified 96 hits that were possibly play critical roles in viral replication. These hits are involved in cellular pathways of 1) Phospholipid synthesis; 2) Membrane-shaping; 3) Sterol synthesis and transport; 4) Protein transport; 5) Protein modification, among many others. We are pursuing several genes involved in lipid metabolism and transport because cellular membranes are primarily composed of lipids and lipid compositional changes affect VRC formation and functions. For Objective 2, we have found that CPR5 proteins from monocotyledon plants promoted BMV replication while those from dicotyledon plants inhibited it, providing direct evidence that CPR5 protein determines the host range of BMV. We are currently examining the mechanisms by which dicot CPR5 genes inhibit BMV replication and expressing the dicot CPR5 genes in monocot plants to control BMV infection. For Objective 3, we have demonstrated that substitutions in a host gene involved in lipid synthesis, CHO2, prevented the VRC formation by directing BMV replication protein 1a (BMV 1a), which remodels the nuclear membrane to form VRCs, away from the nuclear membrane, and thus, no VRCs were formed. This has been reported in Journal of Biological Chemistry. Based on the results from Objective 3, we have extended our plan to demonstrate that an amphipathic alpha-helix in BMV 1a is necessary and sufficient to target BMV 1a to the nuclear membrane. We further found that the counterparts of the BMV 1a helix from a group of viruses in the alphavirus-like superfamily, such as CMV, hepatitis E virus, and Rubella virus, are sufficient to target VRCs to the designated membranes, revealing a conserved feature among the superfamily. A joint manuscript describing these exciting results and authored by the two labs will be submitted shortly. We have also successfully set up systems in tomato plants: 1) to efficiently knock down gene expression via virus-induced gene silencing so we could test effects of lacking a host gene(s) on CMV replication; 2) to overexpress any gene transiently from a mild virus (potato virus X) so we could test effects of the overexpressed gene(s) on CMV replication. In summary, we have made promising progress in all three Objectives. We have identified multiple new host proteins that are involved in VRC formation and may serve as good targets to develop antiviral strategies; have confirmed that CPR5 from dicot plants inhibited viral infection and are generating BMV-resistance rice and wheat crops by overexpressing dicot CPR5 genes; have demonstrated to block viral replication by preventing viral replication protein from targeting to the designated organelle membranes for the VRC formation and this concept can be further employed for virus control. We are grateful to BARD funding and are excited to carry on this project in collaboration</p>
+            </abstract>
+            <publication_date media_type="online">
+               <year>2020</year>
+            </publication_date>
+            <publisher>
+               <publisher_name>United States-Israel Binational Agricultural Research and Development Fund</publisher_name>
+               <publisher_place>Israel</publisher_place>
+            </publisher>
+            <doi_data>
+               <doi>10.32747/2020.8134163.bard</doi>
+               <resource>https://handle.nal.usda.gov/10113/8134163</resource>
+            </doi_data>
+         </report-paper_metadata>
+      </report-paper>
+      <report-paper>
+         <report-paper_metadata language="en">
+            <contributors>
+               <person_name sequence="first" contributor_role="primary investigator">
+                  <given_name>S.</given_name>
+                  <surname>Droby</surname>
+                  <affiliations>
+                     <institution>
+                        <institution_name>Agricultural Research Organization</institution_name>
+                     </institution>
+                  </affiliations>
+               </person_name>
+               <person_name sequence="additional" contributor_role="author">
+                  <given_name>J. L.</given_name>
+                  <surname>Norelli</surname>
+                  <affiliations>
+                     <institution>
+                        <institution_name>USDA, Agricultural Research Service WV</institution_name>
+                     </institution>
+                  </affiliations>
+               </person_name>
+               <person_name sequence="additional" contributor_role="author">
+                  <given_name>M. E.</given_name>
+                  <surname>Wisniewski</surname>
+                  <affiliations>
+                     <institution>
+                        <institution_name>USDA, Agricultural Research Service WV</institution_name>
+                     </institution>
+                  </affiliations>
+               </person_name>
+               <person_name sequence="additional" contributor_role="author">
+                  <given_name>S.</given_name>
+                  <surname>Freilich</surname>
+                  <affiliations>
+                     <institution>
+                        <institution_name>Agricultural Research Organization</institution_name>
+                     </institution>
+                  </affiliations>
+               </person_name>
+               <person_name sequence="additional" contributor_role="author">
+                  <given_name>A Agricultural Research Organization</given_name>
+                  <surname>Faigenboim</surname>
+               </person_name>
+               <person_name sequence="additional" contributor_role="author">
+                  <given_name>C.</given_name>
+                  <surname>Dardick</surname>
+                  <affiliations>
+                     <institution>
+                        <institution_name>USDA, Agricultural Research Service WV</institution_name>
+                     </institution>
+                  </affiliations>
+               </person_name>
+               <organization sequence="additional" contributor_role="author">United States-Israel Binational Agricultural Research and Development Fund</organization>
+               <organization sequence="additional" contributor_role="author">Minhal ha-meḥḳar ha-ḥaḳlaʼi (Israel)</organization>
+            </contributors>
+            <titles>
+               <title>Microbial networks on harvested apples and the design of antagonistic consortia to control postharvest pathogens</title>
+            </titles>
+            <abstract xmlns="http://www.ncbi.nlm.nih.gov/JATS1">
+               <p>We have demonstrated, at a global level, the existence of spatial variation in the fungal and bacterial composition of different fruit tissues. The composition, diversity and abundance varied in fruit harvested in different geographical locations and suggests a potential link between location and the type and rate of postharvest diseases that develop in each country. The global core microbiome of apple fruit was determined and found to be represented by several beneficial microbial taxa and accounted for a large fraction of the fruit microbial community. To further characterize apple fruit the microbiome after harvest, a detailed study was performed to evaluate effects of postharvest practices on the composition of the fruit peel. Microbiota. Results of this work conformed our findings that tissue-type is the main factor driving fungal and bacterial diversity and community composition on apple fruit. Both postharvest treatments and low temperature storage had a great impact on the fungal and bacterial diversity and community composition of these tissue types. Distinct spatial and temporal changes in the composition and diversity of the microbiota were observed in response to various postharvest management practices. Our results clearly indicated that apple fruit has a unique core microbiome that is universal. Analysis of the microbiome across Malus species indicates that the microbiome of domesticated apple has a higher diversity and abundance and is an admixture of the microbiome present in its wild progenitors, with clear evidence for introgression. These findings support the existence of co-evolution between Malus species and their microbiome during domestication. A network analysis of the metagenomics data was used to further elucidate functional differences between the microbiome of organic vs. conventional fruit. Our analysis predicted a link between Capnodiales and the degradation of aromatic compounds. Alternaria, a genus in the Capnodiales genus, is one of the main pathogens of stored apple fruit and was also abundant in our samples. The potential role of Alternaria in the degradation of aromatic compounds is in agreement with previous studies indicating a link between Alternaria and the metabolism of the aromatic compound, alphafarnesene38, a key volatile secreted by the fruit during maturation. A greater number of metabolic pathways related to plant defense substances (e.g. terpenoids and alkaloids) were identified in the microbiome of organic fruit samples, while more antibiotic-related metabolic pathways for compounds such as Erythromycin, Avermectin, Ansamycin, and Penicillin were present in the microbiome of apple fruit samples grown using conventional management practices</p>
+            </abstract>
+            <publication_date media_type="online">
+               <year>2020</year>
+            </publication_date>
+            <publisher>
+               <publisher_name>United States-Israel Binational Agricultural Research and Development Fund</publisher_name>
+               <publisher_place>Israel</publisher_place>
+            </publisher>
+            <doi_data>
+               <doi>10.32747/2020.8134164.bard</doi>
+               <resource>https://handle.nal.usda.gov/10113/8134164</resource>
+            </doi_data>
+         </report-paper_metadata>
+      </report-paper>
+      <report-paper>
+         <report-paper_metadata language="en">
+            <contributors>
+               <person_name sequence="first" contributor_role="author">
+                  <given_name>I.</given_name>
+                  <surname>Yedidia</surname>
+                  <affiliations>
+                     <institution>
+                        <institution_name>Agricultural Research Organization</institution_name>
+                     </institution>
+                  </affiliations>
+               </person_name>
+               <person_name sequence="additional" contributor_role="author">
+                  <given_name>H.</given_name>
+                  <surname>Senderowitz</surname>
+                  <affiliations>
+                     <institution>
+                        <institution_name>Bar Ilan University</institution_name>
+                     </institution>
+                  </affiliations>
+               </person_name>
+               <person_name sequence="additional" contributor_role="author">
+                  <given_name>A. O.</given_name>
+                  <surname>Charkowski</surname>
+                  <affiliations>
+                     <institution>
+                        <institution_name>University of Wisconsin-Madison</institution_name>
+                     </institution>
+                  </affiliations>
+               </person_name>
+               <organization sequence="additional" contributor_role="author">United States-Israel Binational Agricultural Research and Development Fund</organization>
+               <organization sequence="additional" contributor_role="author">Minhal ha-meḥḳar ha-ḥaḳlaʼi (Israel)</organization>
+            </contributors>
+            <titles>
+               <title>Small molecule cocktails designed to impair virulence targets in soft rot Erwinias</title>
+            </titles>
+            <abstract xmlns="http://www.ncbi.nlm.nih.gov/JATS1">
+               <p>Chemical signaling between beneficial or pathogenic bacteria and plants is a central factor in determining the outcome of plant-microbe interactions. Pectobacterium and Dickeya (soft rot Erwinias) are the major cause of soft rot, stem rot, and blackleg formed on potato and ornamentals, currently with no effective control. Our major aim was to establish and study specific bacterial genes/proteins as targets for anti-virulence compounds, by combining drug design tools and bioinformatics with experimental work. The approach allowed us to identify and test compounds (small molecules) that specifically interfere with the activities of these targets, by this impairing bacterial virulence. Two main targets were selected within the frame of the BARD project. The first is the ATP-binding cassette (ABC) transporters and methyl-accepting chemotaxis proteins (MCP) that have been characterized here for the first time in Pectobacteriaceae, and the second is the quorum sensing (QS) machinery of Pectobacterium with its major proteins and in particular, the AHL synthase ExpI that was identified as the preferred target for inhibition. Both systems are strongly associated with bacterial virulence and survival in planta. We found that Pectobacteriaceae, namely Dickeya and Pectobacterium, encode more ABC transporters and MCP in their genomes, compared to other bacteria in the order. For MCP, soft rot Pectobacteriaceae not only contain more than 30 MCP genes per strain, but also have more diverse ligand binding domains than other species in the Enterobacteriales. These findings suggest that both ABC transporters and MCP are important for soft rot Pectobacteriaceae pathogenicity. We now have a selection of mutants in these proteins that may be further explored to understand their direct involvement in virulence. In parallel, we studied the QS central proteins in pectobacteria, the signaling molecule N-acyl-homoserine lactone synthase, ExpI, and the response regulator ExpR, and established their phylogenetic relations within plant pathogenic Gram negative bacteria. Next, these proteins were used for virtual screening of millions of compounds in order to discover new compounds with potential to interfere with the QS machinery. Several natural compounds were tested for their interference with virulence related traits in Pectobacterium and their capability to minimize soft rot infections. Our findings using microcalorimetric binding studies have established for the first time direct interaction between the protein ExpI and two natural ligands, the plant hormone salicylic acid and the volatile compound carvacrol. These results supported a model by which plants interfere with bacterial communication through interkingdom signaling. The collaborative project yielded two research papers and a comprehensive review, which included new computational and bioinformatics data, in Annu. Rev. Phytopathol., the highest ranked journal in phytopathology. Additional two papers are in preparation. In order to transform the fundamental knowledge that have been gained during this collaborative BARD project into agricultural practice, to control soft rot bacteria, we have submitted a continual project</p>
+            </abstract>
+            <publication_date media_type="online">
+               <year>2020</year>
+            </publication_date>
+            <publisher>
+               <publisher_name>United States-Israel Binational Agricultural Research and Development Fund</publisher_name>
+               <publisher_place>Israel</publisher_place>
+            </publisher>
+            <doi_data>
+               <doi>10.32747/2020.8134165.bard</doi>
+               <resource>https://handle.nal.usda.gov/10113/8134165</resource>
+            </doi_data>
+         </report-paper_metadata>
+      </report-paper>
+   </body>
+</doi_batch>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns:map="http://www.w3.org/2005/xpath-functions/map"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns="http://www.crossref.org/schema/5.3.1"
+           version="5.3.1"
+           xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 https://www.crossref.org/schemas/crossref5.3.1.xsd">
+   <head>
+      <doi_batch_id>report_paper-2023-11-27T09:31:29.628318-05:00</doi_batch_id>
+      <timestamp>20231127093129628318</timestamp>
+      <depositor>
+         <depositor_name>Carlos Martinez III</depositor_name>
+         <email_address>carlos.martinez2@usda.gov</email_address>
+      </depositor>
+      <registrant>National Agricultural Library</registrant>
+   </head>
+   <body>
+      <report-paper>
+         <report-paper_metadata language="en">
+            <contributors>
+               <person_name sequence="first" contributor_role="author">
+                  <given_name>E</given_name>
+                  <surname>Cytryn</surname>
+                  <affiliations>
+                     <institution>
+                        <institution_name>Agricultural Research Organization</institution_name>
+                     </institution>
+                  </affiliations>
+               </person_name>
+               <person_name sequence="additional" contributor_role="author">
+                  <given_name>Sean F.</given_name>
+                  <surname>Brady</surname>
+                  <affiliations>
+                     <institution>
+                        <institution_name>Rockefeller University</institution_name>
+                     </institution>
+                  </affiliations>
+               </person_name>
+               <person_name sequence="additional" contributor_role="author">
+                  <given_name>O.</given_name>
+                  <surname>Frenkel</surname>
+                  <affiliations>
+                     <institution>
+                        <institution_name>Agricultural Research Organization</institution_name>
+                     </institution>
+                  </affiliations>
+               </person_name>
+               <organization sequence="additional" contributor_role="author">United States-Israel Binational Agricultural Research and Development Fund,</organization>
+            </contributors>
+            <titles>
+               <title>Cutting edge culture independent pipeline for detection of novel anti-fungal plant protection compounds in suppressive soils</title>
+            </titles>
+            <abstract xmlns="http://www.ncbi.nlm.nih.gov/JATS1">
+               <p>Fusarium oxysporum spp. causes Panama disease in bananas and crown and root rot in an array of vegetables and field crops, but increased regulations have restricted the use of many conventional chemical pesticides, and there are a limited number of commercially available products effective against them. The soil microbiome represents a largely untapped reservoir of secondary metabolites that can potentially antagonize fungal pathogens. However, most soil bacteria cannot be cultivated using conventional techniques and therefore most of these compounds remain unexplored. The overall goal of this two-year project was to extract and characterize novel secondary metabolites from "unculturable" soil microbiomes that antagonize Fusarium and other fungal plant pathogens. Initially, the Cytryn lab at the Volcani Institute (ARO) identified candidate biosynthetic gene clusters (BGCs) encoding for potentially novel antifungal compounds (specifically non-ribosomal peptides and polyketides) in soil and plant root microbiomes using cutting-edge metagenomic platforms. Next, the Brady lab at Rockefeller University (RU) screened archived soil metagenomic cosmid libraries for these BGCs, and heterologously expressed them in suitable hosts. Finally, the Frenkel and Cytryn labs at ARO assessed the capacity of these heterologous expressed strains to antagonize Fusarium and other fungal plant pathogens. Initially tomato and lettuce were analyzed, and subsequently roots of cucumbers grown in suppressive (biochar amended) soils were targeted. We found that the composition of tomato and lettuce root BGCs are similar to each other, but significantly different from adjacent bulk soil, indicating that root bacteria possess specific secondary metabolites that are potentially associated with rhizosphere competence. BGC linked to known metabolites included various antimicrobial, (e.g., streptazone E, sessilin), antifungal (heat-stable antifungal factor- HSAF, II and ECO-02301), and insecticidal (melingmycin, orfamide A) compounds. However, over 90% of the identified BGCs were moderately to significantly different from those encoding for characterized secondary metabolites, highlighting the profusion of potentially novel secondary metabolites in both root and soil environments. Novel BGCs that were abundant in roots and remotely resembled those of antifungal compounds were transferred to RU for subsequent screening and five were identified in RU soil metagenomic cosmid libraries. Two of these clusters (BARD-1711 BARD-B481) were heterologously-expressed in a Streptomyces albus J1074 strain, and transferred to ARO. The strain harboring BARAD-B481 was found to antagonize Fusarium significantly more than the host strain, indicating that this BGCs product has antifungal activity. Future studies will need to work on chemically characterizing the BARAD-B481 BGC and progress with the above described pipeline for other interesting BGCs</p>
+            </abstract>
+            <publication_date media_type="online">
+               <year>2022</year>
+            </publication_date>
+            <publisher>
+               <publisher_name>United States-Israel Binational Agricultural Research and Development Fund,</publisher_name>
+               <publisher_place>Israel </publisher_place>
+            </publisher>

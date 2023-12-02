@@ -1578,7 +1578,7 @@
         <marc:controlfield tag="001">9916406030207426</marc:controlfield>
         <marc:controlfield tag="005">20230930225113.0</marc:controlfield>
         <marc:controlfield tag="007">cr |||||||||||</marc:controlfield>
-        <marc:controlfield tag="008">230927s2022    is      o     000 0 eng d</marc:controlfield>
+        <marc:controlfield tag="008">231121e202210uudcu     o    f000 0 eng c</marc:controlfield>
         <marc:datafield tag="016" ind1="7" ind2=" ">
             <marc:subfield code="a">CAT109916406030207426 </marc:subfield>
             <marc:subfield code="2">DNAL</marc:subfield>
@@ -1617,7 +1617,7 @@
         <marc:datafield tag="264" ind1=" " ind2="1">
             <marc:subfield code="a">[Israel?] : </marc:subfield>
             <marc:subfield code="b">United States-Israel Binational Agricultural Research and Development Fund, </marc:subfield>
-            <marc:subfield code="c">2022</marc:subfield>
+            <marc:subfield code="c">October 2022</marc:subfield>
         </marc:datafield>
         <marc:datafield tag="300" ind1=" " ind2=" ">
             <marc:subfield code="a">1 online resource (143 pages) : </marc:subfield>

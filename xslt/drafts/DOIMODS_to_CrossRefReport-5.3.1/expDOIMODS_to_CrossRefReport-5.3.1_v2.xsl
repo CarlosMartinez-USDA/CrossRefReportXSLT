@@ -266,14 +266,19 @@
                     <xsl:when test="$valid">                       
                        <xsl:value-of select="$role"/>                        
                     </xsl:when>
-                   <!-- 1.18 adding second condition for usage of primary investigtor -->
+                <!-- is it better use 'author' as a default value when 
+                    $role contains an invalid value? -->
+                    <xsl:otherwise>
+                        <xsl:value-of select="'author'"/>
+                    </xsl:otherwise>
+                   <!-- 1.18 adding second condition for usage of primary investigtor
                    <xsl:when test="'primary investigator'">                     
                        <xsl:value-of select="'author'"/>                       
                    </xsl:when>
                     <xsl:otherwise>
                         <xsl:value-of select="$role"/>
                         <xsl:message terminate="no" select="concat('Warning! Invalid value of: &quot; ', $role, ' &quot; was selected. ', 'Only one of the following values may be selected: author, editor, chair, reviewer, review-assistant, stats-reviewer, reviewer-external, reader, translator.' )"/>
-                    </xsl:otherwise>
+                    </xsl:otherwise>-->
                 </xsl:choose>
             </xsl:attribute>
             <given_name>
@@ -292,7 +297,7 @@
     </xd:doc>
     <xsl:template match="name[@type = 'corporate']" mode="contributor">
         <organization sequence="{f:addSequence(.)}" contributor_role="author" >
-            <xsl:value-of select="local:stripPunctuation(normalize-space(namePart))"/>
+            <xsl:value-of select="local:stripPunctuation(namePart)"/>
         </organization>
     </xsl:template>
 
@@ -326,7 +331,7 @@
         
      
     <xd:doc>
-        <xd:desc>institution_name for publisher</xd:desc>
+        <xd:desc>institution_id for publisher</xd:desc>
     </xd:doc>
     <xsl:template match="name[@type = 'corporate']">
         <institution>
@@ -337,7 +342,7 @@
     </xsl:template>
 
     <xd:doc>
-        <xd:desc>originInfo to publication_date</xd:desc>
+        <xd:desc/>
     </xd:doc>
     <xsl:template match="originInfo/dateIssued[@encoding = 'w3cdtf']">
         <publication_date media_type="online">
@@ -346,12 +351,12 @@
     </xsl:template>
 
     <xd:doc>
-        <xd:desc>originInfo/publisher</xd:desc>
+        <xd:desc/>
     </xd:doc>
     <xsl:template match="originInfo[@eventType = 'publisher']">
         <publisher>
                 <publisher_name>
-                    <xsl:value-of select="local:stripPunctuation(normalize-space(publisher))"/>
+                    <xsl:value-of select="local:stripPunctuation(publisher)"/>
                 </publisher_name>
             <publisher_place>
                 <xsl:choose>
@@ -367,14 +372,14 @@
     </xsl:template>
 
     <xd:doc>
-        <xd:desc>originInfo/place/placeTerm</xd:desc>
+        <xd:desc/>
     </xd:doc>
     <xsl:template match="place/placeTerm[@type = 'text']">
             <xsl:value-of select="normalize-space(local:stripPunctuation(.))"/>
     </xsl:template>
 
     <xd:doc>
-        <xd:desc>abstract</xd:desc>
+        <xd:desc/>
     </xd:doc>
     <xsl:template match="abstract">
         <abstract xmlns="http://www.ncbi.nlm.nih.gov/JATS1">
@@ -385,7 +390,7 @@
     </xsl:template>
 
     <xd:doc>
-        <xd:desc>doi/hdl</xd:desc>
+        <xd:desc/>
     </xd:doc>
     <xsl:template name="doiData">
         <doi_data>

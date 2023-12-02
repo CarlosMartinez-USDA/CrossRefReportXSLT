@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modsCollection xmlns="http://www.loc.gov/mods/v3"
+                xmlns:mods="http://www.loc.gov/mods/v3"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
+   <mods version="3.7">
+      <titleInfo>
+         <title>Climate change and the dairy sector in Israel and the US</title>
+      </titleInfo>
+      <name type="personal" usage="primary">
+         <namePart type="given">Eyal</namePart>
+         <namePart type="family">Frank</namePart>
+         <displayForm>Frank, Eyal </displayForm>
+         <nameIdentifier type="orcid">https://orcid.org/0000-0002-5876-5319</nameIdentifier>
+         <affiliation>University of Chicago.</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="given">Ayal</namePart>
+         <namePart type="family">Kimhi</namePart>
+         <displayForm>Kimhi, Ayal </displayForm>
+         <nameIdentifier type="orcid">https://orcid.org/0000-0002-6716-7118</nameIdentifier>
+         <affiliation>Hebrew University of Jerusalem.</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="given">R.</namePart>
+         <namePart type="family">Fishman</namePart>
+         <displayForm>Fishman, R. </displayForm>
+         <nameIdentifier type="orcid">https://orcid.org/0000-0003-0381-9153</nameIdentifier>
+         <affiliation>Tel Aviv University.</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="corporate">
+         <namePart>United States-Israel Binational Agricultural Research and Development Fund, </namePart>
+         <role>
+            <roleTerm type="text">sponsor</roleTerm>
+         </role>
+      </name>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="marcgt">government publication</genre>
+      <genre authority="rdacontent">text </genre>
+      <genre authority="DNAL">report paper </genre>
+      <originInfo>
+         <place>
+            <placeTerm type="code" authority="marccountry">dcu</placeTerm>
+            <placeTerm type="text">District of Columbia</placeTerm>
+         </place>
+         <dateIssued encoding="w3cdtf" keyDate="yes">2022-10-19</dateIssued>
+         <issuance>monographic</issuance>
+      </originInfo>
+      <originInfo eventType="publisher">
+         <place>
+            <placeTerm type="text">[Israel?] : </placeTerm>
+         </place>
+         <publisher>United States-Israel Binational Agricultural Research and Development Fund, </publisher>
+         <dateIssued>October 19, 2022</dateIssued>
+      </originInfo>
+      <language>
+         <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+         <languageTerm type="text">English</languageTerm>
+      </language>
+      <physicalDescription>
+         <form authority="marccategory">electronic resource</form>
+         <form authority="marcsmd">remote</form>
+         <form type="media" authority="rdamedia">computer </form>
+         <form type="carrier" authority="rdacarrier">online resource </form>
+         <extent>1 online resource (50 pages) :  illustrations, charts</extent>
+      </physicalDescription>
+      <note type="statement of responsibility">Frank, E., Fishman, R., Kimhi, A.</note>
+      <note>Bard second annual report is-5150-19</note>
+      <note>Project award year: 2019</note>
+      <note>OnlineOnlineResource (viewed 28 september 2023)</note>
+      <subject authority="lcsh">
+         <topic>Dairy products industry</topic>
+         <topic>Environmental aspects</topic>
+         <geographic>Israel</geographic>
+      </subject>
+      <subject authority="lcsh">
+         <topic>Dairy products industry</topic>
+         <topic>Environmental aspects</topic>
+         <geographic>United States</geographic>
+      </subject>
+      <classification authority="nal">HD9275.I75  F73 2022</classification>
+      <location>
+         <url displayLabel="electronic resource"
+              usage="primary display"
+              note="CrossRef DOI Landing Page">https://handle.nal.usda.gov/10113/8134150 </url>
+      </location>
+      <location>
+         <url displayLabel="Available in the National Agricultural Library Digital Collections"
+              usage="primary display">https://dx.doi.org/10.32747/2022.8134150.bard </url>
+      </location>
+      <location>
+         <url displayLabel="electronic resource">https://www.bard-isus.com/FinalRep/5150.pdf</url>
+      </location>
+      <identifier type="hdl">10113/8134150 </identifier>
+      <identifier type="doi">10.32747/2022.8134150.bard </identifier>
+      <identifier type="control">9916406029507426</identifier>
+      <identifier type="oclc">on1400202933</identifier>
+      <identifier type="agricola">CAT109916406029507426</identifier>
+      <identifier type="local">agid:8134150</identifier>
+      <extension>
+         <note type="saleTape">20230928  00000000  00000000</note>
+         <note type="publicationSource">Non-US</note>
+      </extension>
+      <recordInfo>
+         <descriptionStandard>rda </descriptionStandard>
+         <recordContentSource authority="marcorg">AGL </recordContentSource>
+         <recordCreationDate encoding="marc">231121</recordCreationDate>
+         <recordChangeDate encoding="iso8601">20230930225021.0</recordChangeDate>
+         <recordIdentifier>9916406029507426</recordIdentifier>
+         <recordOrigin>Converted from MARCXML to MODS version 3.7 using NAL-MARC21slim2MODS3-7-prefix.xsl (Revision 1.183 20230615 cm3), Transformed on: 12/01/2023 at 6:11 p.m.</recordOrigin>
+         <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng </languageTerm>
+         </languageOfCataloging>
+      </recordInfo>
+   </mods>
+   <mods version="3.7">
+      <titleInfo>
+         <title>New insights into apple calcium application</title>
+         <subTitle>understanding its contradicting effects on postharvest disorders for improved fruit quality</subTitle>
+      </titleInfo>
+      <name type="personal" usage="primary">
+         <namePart type="given">Dan</namePart>
+         <namePart type="family">Gamrasni</namePart>
+         <displayForm>Gamrasni, Dan </displayForm>
+         <affiliation>Migal Galilee Technology Center</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="given">Lee</namePart>
+         <namePart type="family">Kalcits</namePart>
+         <displayForm>Kalcits, Lee </displayForm>
+         <affiliation>Washington State University</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="given">Haya</namePart>
+         <namePart type="family">Friedman</namePart>
+         <displayForm>Friedman, Haya </displayForm>
+         <affiliation>Agricultural Research Organization</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="given">C</namePart>
+         <namePart type="family">Ziv</namePart>
+         <displayForm>Ziv, C </displayForm>
+         <affiliation>Agricultural Research Organization</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="corporate">
+         <namePart>United States-Israel Binational Agricultural Research and Development Fund, </namePart>
+         <role>
+            <roleTerm type="text">sponsor</roleTerm>
+         </role>
+      </name>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="marcgt">government publication</genre>
+      <genre authority="rdacontent">text </genre>
+      <genre authority="DNAL">report paper </genre>
+      <originInfo>
+         <place>
+            <placeTerm type="code" authority="marccountry">uud</placeTerm>
+         </place>
+         <dateIssued encoding="w3cdtf" keyDate="yes">2022-10</dateIssued>
+         <issuance>monographic</issuance>
+      </originInfo>
+      <originInfo eventType="publisher">
+         <place>
+            <placeTerm type="text">[Israel?] : </placeTerm>
+         </place>
+         <publisher>United States-Israel Binational Agricultural Research and Development Fund, </publisher>
+         <dateIssued>October 2022</dateIssued>
+      </originInfo>
+      <language>
+         <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+         <languageTerm type="text">English</languageTerm>
+      </language>
+      <physicalDescription>
+         <form authority="marccategory">electronic resource</form>
+         <form authority="marcsmd">remote</form>
+         <form type="media" authority="rdamedia">computer </form>
+         <form type="carrier" authority="rdacarrier">online resource </form>
+         <extent>1 online resource (143 pages) :  illustrations</extent>
+      </physicalDescription>
+      <note type="statement of responsibility">D. Gamrasni, L. Kalcits, H. Friedman, C. Ziv</note>
+      <note>Bard final report is-5143-18r</note>
+      <note>Project award year: 2020</note>
+      <note>OnlineOnlineResource (viewed 27 september 2023)</note>
+      <subject authority="lcsh">
+         <topic>Postharvest diseases and injuries</topic>
+      </subject>
+      <subject authority="lcsh">
+         <topic>Apples</topic>
+      </subject>
+      <location>
+         <url displayLabel="electronic resource" usage="primary display">https://www.bard-isus.com/FinalRep/5143.pdf</url>
+      </location>
+      <location>
+         <url displayLabel="electronic resource" note="CrossRef DOI Landing Page">https://handle.nal.usda.gov/10113/8134151 </url>
+      </location>
+      <location>
+         <url displayLabel="Available in the National Agricultural Library Digital Collections">https://dx.doi.org/10.32747/2022.8134151.bard </url>
+      </location>
+      <identifier type="hdl">10113/8134151 </identifier>
+      <identifier type="doi">10.32747/2022.8134151.bard </identifier>
+      <identifier type="control">9916406030207426</identifier>
+      <identifier type="oclc">on1399981631</identifier>
+      <identifier type="agricola">CAT109916406030207426</identifier>
+      <identifier type="local">agid:8134151</identifier>
+      <extension>
+         <note type="saleTape">20230927  00000000  00000000</note>
+         <note type="publicationSource">Non-US</note>
+      </extension>
+      <recordInfo>
+         <descriptionStandard>rda </descriptionStandard>
+         <recordContentSource authority="marcorg">AGL </recordContentSource>
+         <recordCreationDate encoding="marc">231121</recordCreationDate>
+         <recordChangeDate encoding="iso8601">20230930225113.0</recordChangeDate>
+         <recordIdentifier>9916406030207426</recordIdentifier>
+         <recordOrigin>Converted from MARCXML to MODS version 3.7 using NAL-MARC21slim2MODS3-7-prefix.xsl (Revision 1.183 20230615 cm3), Transformed on: 12/01/2023 at 6:11 p.m.</recordOrigin>
+         <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng </languageTerm>
+         </languageOfCataloging>
+      </recordInfo>
+   </mods>
+   <mods version="3.7">
+      <titleInfo>
+         <title>Increasing water availability through agricultural groundwater recharge</title>
+      </titleInfo>
+      <name type="personal" usage="primary">
+         <namePart type="given">Alex</namePart>
+         <namePart type="family">Furman</namePart>
+         <displayForm>Furman, Alex </displayForm>
+         <affiliation>Technion R&amp;D Foundation Ltd.</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="given">Helen E.</namePart>
+         <namePart type="family">Dahlke</namePart>
+         <displayForm>Dahlke, Helen E. </displayForm>
+         <affiliation>The Regents of the University of California, Davis</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="given">Noam</namePart>
+         <namePart type="family">Weisbrod</namePart>
+         <displayForm>Weisbrod, Noam </displayForm>
+         <affiliation>Ben-Gurion University of the Negev</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="personal">
+         <namePart type="given">Eran</namePart>
+         <namePart type="family">Raveh</namePart>
+         <displayForm>Raveh, Eran </displayForm>
+         <affiliation>Agricultural Research Organization</affiliation>
+         <role>
+            <roleTerm type="text">author</roleTerm>
+         </role>
+      </name>
+      <name type="corporate">
+         <namePart>United States-Israel Binational Agricultural Research and Development Fund, </namePart>
+         <role>
+            <roleTerm type="text">sponsor</roleTerm>
+         </role>
+      </name>
+      <typeOfResource>text</typeOfResource>
+      <genre authority="rdacontent">text </genre>
+      <genre authority="DNAL">report paper </genre>
+      <originInfo>
+         <place>
+            <placeTerm type="code" authority="marccountry">is</placeTerm>
+            <placeTerm type="text">Israel</placeTerm>
+         </place>
+         <dateIssued encoding="w3cdtf" keyDate="yes">2022</dateIssued>
+         <issuance>monographic</issuance>
+      </originInfo>
+      <originInfo eventType="publisher">
+         <place>
+            <placeTerm type="text">[Israel?] : </placeTerm>
+         </place>
+         <publisher>United States-Israel Binational Agricultural Research and Development Fund, </publisher>
+         <dateIssued>[2022]</dateIssued>
+      </originInfo>
+      <language>
+         <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
+         <languageTerm type="text">English</languageTerm>
+      </language>
+      <physicalDescription>
+         <form authority="marccategory">electronic resource</form>
+         <form authority="marcsmd">remote</form>
+         <form type="media" authority="rdamedia">computer </form>
+         <form type="carrier" authority="rdacarrier">online resource </form>
+         <extent>1 online resource (85 pages) ;  illustrations, graphs, tables</extent>
+      </physicalDescription>
+      <note type="statement of responsibility">A. Furman, H.E. Dahlke, N. Weisbrod, E. Raveh</note>
+      <note>Bard final report is-5125-18 r</note>
+      <note>Project award year 2018</note>
+      <note>OnlineOnlineResource (viewed 27 september 2023)</note>
+      <subject authority="lcsh">
+         <topic>Groundwater recharge</topic>
+      </subject>
+      <subject authority="lcsh">
+         <topic>Water-supply, Agricultural</topic>
+      </subject>
+      <classification authority="nal">GB1197.77  F87 2022</classification>
+      <location>
+         <url displayLabel="electronic resource" usage="primary display">https://www.bard-isus.com/FinalRep/5125.pdf</url>
+      </location>
+      <location>
+         <url displayLabel="electronic resource" note="CrossRef DOI Landing Page">https://handle.nal.usda.gov/10113/8134152 </url>
+      </location>
+      <location>
+         <url displayLabel="Available in the National Agricultural Library Digital Collections">https://dx.doi.org/10.32747/2022.8134152.bard </url>
+      </location>
+      <identifier type="hdl">10113/8134152 </identifier>
+      <identifier type="doi">10.32747/2022.8134152.bard </identifier>
+      <identifier type="control">9916406030507426</identifier>
+      <identifier type="oclc">on1399975657</identifier>
+      <identifier type="agricola">CAT109916406030507426</identifier>
+      <identifier type="local">agid:8134152</identifier>
+      <extension>
+         <note type="saleTape">20230927  00000000  00000000</note>
+         <note type="publicationSource">Other US</note>
+      </extension>
+      <recordInfo>
+         <descriptionStandard>rda </descriptionStandard>
+         <recordContentSource authority="marcorg">AGL </recordContentSource>
+         <recordCreationDate encoding="marc">230927</recordCreationDate>
+         <recordChangeDate encoding="iso8601">20230930225157.0</recordChangeDate>
+         <recordIdentifier>9916406030507426</recordIdentifier>
+         <recordOrigin>Converted from MARCXML to MODS version 3.7 using NAL-MARC21slim2MODS3-7-prefix.xsl (Revision 1.183 20230615 cm3), Transformed on: 12/01/2023 at 6:11 p.m.</recordOrigin>
+         <languageOfCataloging>
+            <languageTerm authority="iso639-2b" type="code">eng </languageTerm>
+         </languageOfCataloging>
+      </recordInfo>
+   </mods>
+</modsCollection>

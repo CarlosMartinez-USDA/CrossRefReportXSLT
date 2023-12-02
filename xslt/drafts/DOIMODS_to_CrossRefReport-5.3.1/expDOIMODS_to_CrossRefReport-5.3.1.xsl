@@ -3,6 +3,7 @@
     xmlns="http://www.crossref.org/schema/5.3.1" xmlns:cr="http://www.crossref.org/schema/5.3.1"
     xmlns:f="http://functions" xmlns:fr="http://www.crossref.org/fundref.xsd" xmlns:isodates="http://iso" 
     xmlns:jats="http://www.ncbi.nlm.nih.gov/JATS1"  xmlns:local="http://www.local.gov/namespace" 
+    xmlns:map="http://www.w3.org/2005/xpath-functions/map"
     xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:mods="http://www.loc.gov/mods/v3"
     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" xmlns:xlink="http://www.w3.org/1999/xlink"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -13,7 +14,7 @@
     <xsl:output version="1.0" encoding="UTF-8" method="xml" indent="yes" name="CrossRef"/>
     <xsl:strip-space elements="*"/>
         
-        
+   
     <xd:doc scope="stylesheet">
         <xd:desc>
             <xd:p><xd:b>Created on:</xd:b>Sep 5, 2019</xd:p>
@@ -50,7 +51,6 @@
         </xd:desc>
     </xd:doc>
     <xsl:include href="NAL-MARC21slimUtils.xsl"/>
-    
     <!-- global parameters -->
     <xd:doc scope="component">
         <xd:desc>
@@ -219,7 +219,8 @@
                 <xsl:apply-templates select="originInfo/dateIssued[@encoding = 'w3cdtf']"/>
                 <!-- 1.09 -->
                 <xsl:apply-templates select="originInfo[@eventType = 'publisher']"/>
-    <!--  1.10  <xsl:apply-templates select="name[@type = 'corporate']"/>-->
+ <!--  1.10 --><xsl:apply-templates select="name[@type = 'corporate']" mode="ror_org"/>
+               <xsl:apply-templates select="map"/>
                 <xsl:call-template name="doiData"/>
             </report-paper_metadata>
         </report-paper>
@@ -292,7 +293,7 @@
     </xd:doc>
     <xsl:template match="name[@type = 'corporate']" mode="contributor">
         <organization sequence="{f:addSequence(.)}" contributor_role="author" >
-            <xsl:value-of select="local:stripPunctuation(normalize-space(namePart))"/>
+            <xsl:value-of select="local:stripPunctuation(namePart)"/>
         </organization>
     </xsl:template>
 
@@ -326,7 +327,7 @@
         
      
     <xd:doc>
-        <xd:desc>institution_name for publisher</xd:desc>
+        <xd:desc>institution_id for publisher</xd:desc>
     </xd:doc>
     <xsl:template match="name[@type = 'corporate']">
         <institution>
@@ -337,7 +338,7 @@
     </xsl:template>
 
     <xd:doc>
-        <xd:desc>originInfo to publication_date</xd:desc>
+        <xd:desc/>
     </xd:doc>
     <xsl:template match="originInfo/dateIssued[@encoding = 'w3cdtf']">
         <publication_date media_type="online">
@@ -346,12 +347,12 @@
     </xsl:template>
 
     <xd:doc>
-        <xd:desc>originInfo/publisher</xd:desc>
+        <xd:desc/>
     </xd:doc>
     <xsl:template match="originInfo[@eventType = 'publisher']">
         <publisher>
                 <publisher_name>
-                    <xsl:value-of select="local:stripPunctuation(normalize-space(publisher))"/>
+                    <xsl:value-of select="local:stripPunctuation(publisher)"/>
                 </publisher_name>
             <publisher_place>
                 <xsl:choose>
@@ -367,14 +368,14 @@
     </xsl:template>
 
     <xd:doc>
-        <xd:desc>originInfo/place/placeTerm</xd:desc>
+        <xd:desc/>
     </xd:doc>
     <xsl:template match="place/placeTerm[@type = 'text']">
             <xsl:value-of select="normalize-space(local:stripPunctuation(.))"/>
     </xsl:template>
 
     <xd:doc>
-        <xd:desc>abstract</xd:desc>
+        <xd:desc/>
     </xd:doc>
     <xsl:template match="abstract">
         <abstract xmlns="http://www.ncbi.nlm.nih.gov/JATS1">
@@ -385,7 +386,7 @@
     </xsl:template>
 
     <xd:doc>
-        <xd:desc>doi/hdl</xd:desc>
+        <xd:desc/>
     </xd:doc>
     <xsl:template name="doiData">
         <doi_data>
@@ -397,5 +398,77 @@
             </resource>
         </doi_data>
     </xsl:template>
+    <xd:doc>
+        <xd:desc/>
+        <xd:param name="orgName"/>
+    </xd:doc>
+    <xsl:template match="name[@type='corporate']" mode="ror_org">
+        <xsl:param name="orgName" tunnel="yes"/>
+        <xsl:if test="namePart">
+            <institution_id>
+                <xsl:apply-templates select="array/map">
+                    <xsl:with-param name="org">
+                        <xsl:value-of select="array/map[string[@key='name']=$orgName]/string[@key='id']"/>"/>                  
+                    </xsl:with-param>
+                </xsl:apply-templates>
+            </institution_id>
+        </xsl:if>
+    </xsl:template>
+  <!--  <xd:doc>
+        <xd:desc> ror_api_query </xd:desc>
+        <xd:param name="org"/>
+    </xd:doc>
+    <xsl:template match="institution_name" mode="ror_org">
+        <xsl:param name="org" as="xs:string" tunnel="yes"/>
+        <insitution_id>
+         
+        </insitution_id>
+    </xsl:template> -->
+    <xd:doc>
+        <xd:desc></xd:desc>
+    </xd:doc>
+    <xsl:template match="array" xpath-default-namespace="http://www.w3.org/2005/xpath-functions">
+        <xsl:apply-templates select="map"/>
+    </xsl:template>
+    
+    <xd:doc>
+        <xd:desc/>
+        <xd:param name="org"/>
+    </xd:doc>
+    <xsl:template match="map" xpath-default-namespace="http://www.w3.org/2005/xpath-functions">
+        <xsl:param name="org" as="xs:string"/>          
+        <xsl:variable name="api_query" select="json-doc(concat('https://api.ror.org/organizations?affiliation', encode-for-uri($org)))"/>
+        <xsl:value-of select="
+            $api_query
+            =>parse-json()
+            =>map:get(array/map[string[@key='name']=$org]/string[@key='id'])"/>
+    </xsl:template>
+    
+    <xd:doc>
+        <xd:desc/>
+    </xd:doc>
+    <xsl:template match="*[@key]" xpath-default-namespace="http://www.w3.org/2005/xpath-functions">
+        <xsl:element name="{@key}">
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
+    
+    <xd:doc>
+        <xd:desc/>
+    </xd:doc>
+    <xsl:template match="array" xpath-default-namespace="http://www.w3.org/2005/xpath-functions">
+        <xsl:apply-templates/>
+    </xsl:template>
+    
+    <xd:doc>
+        <xd:desc/>
+    </xd:doc>
+    <xsl:template match="array[@key]/*" xpath-default-namespace="http://www.w3.org/2005/xpath-functions">
+        <xsl:element name="{../@key}">
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
+    
+    
     
 </xsl:stylesheet>
