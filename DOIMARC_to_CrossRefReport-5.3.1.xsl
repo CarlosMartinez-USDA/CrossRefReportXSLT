@@ -330,31 +330,10 @@
 					</xsl:otherwise>
 				</xsl:choose>
 			</xsl:variable>
-			<!-- if @ind2 !=0 then nonSort -->
-			<xsl:choose>
-				<xsl:when test="@ind2 != ' ' and @ind2&gt;0">
-					<nonSort xml:space="preserve">
-						<xsl:value-of select="
-							substring(
-							local:stripPunctuation($title),1,
-							(if(@ind2 castable as xs:integer)
-							then @ind2 cast as xs:integer else 0 ))"/>
-					</nonSort>
-					<title>
-						<xsl:value-of
-							select="substring(
-							local:stripPunctuation($title),
-							(if(@ind2 castable as xs:integer)
-							then @ind2 cast as xs:integer else 0 )+1)"
-						/>
-					</title>
-				</xsl:when>
-				<xsl:otherwise>
+			<!-- title -->
 					<title>
 						<xsl:value-of select="local:stripPunctuation($title)"/>
 					</title>
-				</xsl:otherwise>
-			</xsl:choose>
 			<!-- Subtitle -->
 			<xsl:apply-templates select="marc:subfield[@code='b']" mode="title"/>
 			<!-- Part number -->
